@@ -20,6 +20,19 @@ If you're new, don't pay anyone yet:
 | AI Automation Society Plus (Nate Herk, Skool) | $129/month | Only if you are building a client business. The free tier is worth joining. Reviewers say it's weaker on finding clients. No refund on monthly; annual has 7 days. | 12/18 |
 | AAA Accelerator (Liam Ottley) | reported about $6,000 | Not worth the price for most people. The free AI Automation Agency Hub has real training; reviewers describe it as built to sell the accelerator. | 7/18 |
 
+## Skool groups worth a try (checked 11 Nov 2026)
+
+Almost every Skool group shows 5 stars, so ignore the stars. These are cheap and let you get your money back or test free for 7 days:
+
+| Group | Price | For | Score |
+| --- | --- | --- | --- |
+| Early AI-dopters (Mark Kashef) | $43/month, 7-day full refund | Going deep on Claude Code, Codex, local and open-source AI. Weekly updated courses, live calls, includes a security scanner for AI-built apps. | 15/18 |
+| IDALL AI (Darren Maen) | $9/month or $79/year, 7-day full refund | AI short films and ads, taught by a commercial director, with weekly challenges. | 13/18 |
+| ACT: Cinematic AI Video (Barnabas Lawson) | $7/month, 7-day free trial | A first good-looking AI video in a week; film editor of 20 years; Friday feedback. | 11/18 |
+| AI SEO Mastery (Caleb Ulku) | $27/month, 7-day refund | People who run sites or do SEO; ready prompts and guides. Ignore the client-income pitch. | 11/18 |
+
+Red flags seen a lot: "only 11 spots left" counters, "10x your investment" promises, $1,950/month "scaling" groups, "All sales are final". Join free first: AI Automation Society, RoboNuggets, Chase AI and ZeroOne free tiers.
+
 ## The 9-point checklist
 
 Score each point 0, 1 or 2.

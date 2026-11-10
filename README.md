@@ -15,6 +15,8 @@ No sign-up, no email list, no upsell. Copy it, change it, share it (MIT).
 | [`guides/01-start-here.md`](guides/01-start-here.md) | Pick a tool and a model, set custom instructions that make AI blunt and useful. 15 minutes. |
 | [`guides/02-free-tools.md`](guides/02-free-tools.md) | The free and open-source tools that replace the "$600 of discounts" in paid bundles. |
 | [`guides/03-automate-your-week.md`](guides/03-automate-your-week.md) | Find the work worth automating, then climb from prompt to skill to schedule. |
+| [`guides/04-best-free-courses.md`](guides/04-best-free-courses.md) | The best free courses from OpenAI, Anthropic, Google, Hugging Face and Microsoft, checked and dated. |
+| [`guides/05`](guides/05-context-beats-prompts.md) to [`07`](guides/07-first-automation.md) | Context beats prompts, checking AI's work, your first automation. One running example: a small bakery. |
 | [`skills/`](skills/) | Ten ready skills (below). |
 | [`docs/where-money-is-well-spent.md`](docs/where-money-is-well-spent.md) | If you do want to pay for AI learning: which offers are worth it, and why. |
 

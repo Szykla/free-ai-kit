@@ -16,6 +16,9 @@ No sign-up, no email list, no upsell. Copy it, change it, share it (MIT).
 | [`guides/02-free-tools.md`](guides/02-free-tools.md) | The free and open-source tools that replace the "$600 of discounts" in paid bundles. |
 | [`guides/03-automate-your-week.md`](guides/03-automate-your-week.md) | Find the work worth automating, then climb from prompt to skill to schedule. |
 | [`skills/`](skills/) | Ten ready skills (below). |
+| [`docs/where-money-is-well-spent.md`](docs/where-money-is-well-spent.md) | If you do want to pay for AI learning: which offers are worth it, and why. |
+
+Online version: https://szykla.github.io/free-ai-kit/
 
 ## The skills
 

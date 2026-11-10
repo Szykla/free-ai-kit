@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" width="800" height="470" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">What we'll make: a first reply turned into a message worth sending</title>
+  <desc id="d">Left card: the assistant's first reply, which lists flavours the bakery does not make, promises a nut-free cake and leaves out the notice period. Right card: the reply after two follow-ups, which uses the real flavours, gives an honest allergy note, asks the customer to order by Wednesday, and stays under 80 words.</desc>
+  <rect width="800" height="470" fill="#fbf8ff"/>
+
+  <!-- Left card: first reply -->
+  <rect x="24" y="24" width="340" height="420" rx="16" fill="#ffffff" stroke="#e9e2f5" stroke-width="2"/>
+  <text x="48" y="62" font-size="22" font-weight="700" fill="#1d1530">First reply</text>
+  <text x="48" y="90" font-size="17" fill="#5d5472">after one plain question</text>
+  <rect x="48" y="110" width="292" height="12" rx="6" fill="#e9e2f5"/>
+  <rect x="48" y="132" width="250" height="12" rx="6" fill="#e9e2f5"/>
+  <rect x="48" y="154" width="272" height="12" rx="6" fill="#e9e2f5"/>
+  <rect x="48" y="176" width="210" height="12" rx="6" fill="#e9e2f5"/>
+  <g font-size="18" fill="#1d1530">
+    <circle cx="62" cy="234" r="14" fill="#fde8f3"/>
+    <path d="M56 228 L68 240 M68 228 L56 240" stroke="#e83e9c" stroke-width="3" stroke-linecap="round"/>
+    <text x="88" y="240">Flavours we don't make</text>
+    <circle cx="62" cy="290" r="14" fill="#fde8f3"/>
+    <path d="M56 284 L68 296 M68 284 L56 296" stroke="#e83e9c" stroke-width="3" stroke-linecap="round"/>
+    <text x="88" y="296">Promises "nut-free"</text>
+    <circle cx="62" cy="346" r="14" fill="#fde8f3"/>
+    <path d="M56 340 L68 352 M68 340 L56 352" stroke="#e83e9c" stroke-width="3" stroke-linecap="round"/>
+    <text x="88" y="352">No notice period</text>
+  </g>
+  <text x="48" y="414" font-size="17" fill="#5d5472">Sounds polite. Partly wrong.</text>
+
+  <!-- Arrow -->
+  <path d="M374 234 L420 234" stroke="#5b2a8c" stroke-width="4" stroke-linecap="round"/>
+  <path d="M412 222 L428 234 L412 246" fill="none" stroke="#5b2a8c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Right card: final reply -->
+  <rect x="436" y="24" width="340" height="420" rx="16" fill="#ffffff" stroke="#16b8d4" stroke-width="3"/>
+  <text x="460" y="62" font-size="22" font-weight="700" fill="#1d1530">After two follow-ups</text>
+  <text x="460" y="90" font-size="17" fill="#5d5472">facts added, shape asked for</text>
+  <rect x="460" y="110" width="292" height="12" rx="6" fill="#e3f7fb"/>
+  <rect x="460" y="132" width="240" height="12" rx="6" fill="#e3f7fb"/>
+  <rect x="460" y="154" width="200" height="12" rx="6" fill="#e3f7fb"/>
+  <g font-size="18" fill="#1d1530">
+    <circle cx="474" cy="210" r="14" fill="#e3f7fb"/>
+    <path d="M467 210 L472 216 L482 204" fill="none" stroke="#16b8d4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="500" y="216">Real flavours only</text>
+    <circle cx="474" cy="262" r="14" fill="#e3f7fb"/>
+    <path d="M467 262 L472 268 L482 256" fill="none" stroke="#16b8d4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="500" y="268">Honest allergy note</text>
+    <circle cx="474" cy="314" r="14" fill="#e3f7fb"/>
+    <path d="M467 314 L472 320 L482 308" fill="none" stroke="#16b8d4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="500" y="320">"Order by Wednesday"</text>
+    <circle cx="474" cy="366" r="14" fill="#e3f7fb"/>
+    <path d="M467 366 L472 372 L482 360" fill="none" stroke="#16b8d4" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="500" y="372">Under 80 words</text>
+  </g>
+  <text x="460" y="414" font-size="17" fill="#5d5472">Ready for Maria to send.</text></svg>

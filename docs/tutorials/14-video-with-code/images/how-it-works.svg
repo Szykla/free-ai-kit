@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 380" width="800" height="380" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">How HyperFrames turns a page into a video</title>
+  <desc id="d">Left: the index.html composition. An upper arrow leads to Preview in your browser, for checking. A lower arrow labelled Render leads to a hidden Chrome browser that steps through frame 1, frame 2, frame 3 and so on, then to FFmpeg, which joins the frames into an MP4 file.</desc>
+  <rect width="800" height="380" fill="#fbf8ff"/>
+  <rect x="20" y="130" width="150" height="110" rx="12" fill="#ffffff" stroke="#5b2a8c" stroke-width="3"/>
+  <text x="95" y="180" font-size="19" font-weight="700" fill="#1d1530" text-anchor="middle">index.html</text>
+  <text x="95" y="206" font-size="16" fill="#5d5472" text-anchor="middle">composition</text>
+  <!-- preview path -->
+  <rect x="250" y="30" width="230" height="80" rx="12" fill="#e3f7fb"/>
+  <text x="365" y="65" font-size="18" font-weight="700" fill="#1d1530" text-anchor="middle">Preview</text>
+  <text x="365" y="90" font-size="16" fill="#5d5472" text-anchor="middle">in your browser, to check</text>
+  <path d="M170 160 C210 120 220 80 245 72" stroke="#5d5472" stroke-width="3" fill="none"/>
+  <path d="M240 64 L252 71 L240 80 Z" fill="#5d5472"/>
+  <!-- render path -->
+  <text x="180" y="300" font-size="17" font-weight="700" fill="#e83e9c">Render</text>
+  <path d="M170 215 C200 250 220 260 245 262" stroke="#e83e9c" stroke-width="3" fill="none"/>
+  <path d="M243 254 L255 262 L243 270 Z" fill="#e83e9c"/>
+  <rect x="255" y="210" width="250" height="110" rx="12" fill="#ffffff" stroke="#e9e2f5" stroke-width="2"/>
+  <text x="380" y="240" font-size="17" font-weight="700" fill="#1d1530" text-anchor="middle">Hidden Chrome</text>
+  <g fill="#fde8f3" stroke="#e83e9c" stroke-width="1.5"><rect x="275" y="255" width="60" height="45" rx="5"/><rect x="350" y="255" width="60" height="45" rx="5"/><rect x="425" y="255" width="60" height="45" rx="5"/></g>
+  <g font-size="16" fill="#1d1530" text-anchor="middle"><text x="305" y="284">1</text><text x="380" y="284">2</text><text x="455" y="284">3 ...</text></g>
+  <path d="M505 265 H555" stroke="#5d5472" stroke-width="3"/>
+  <path d="M553 257 L565 265 L553 273 Z" fill="#5d5472"/>
+  <rect x="567" y="225" width="100" height="80" rx="12" fill="#e9e2f5"/>
+  <text x="617" y="271" font-size="18" font-weight="700" fill="#1d1530" text-anchor="middle">FFmpeg</text>
+  <path d="M667 265 H700" stroke="#5d5472" stroke-width="3"/>
+  <path d="M698 257 L710 265 L698 273 Z" fill="#5d5472"/>
+  <rect x="712" y="235" width="72" height="60" rx="8" fill="#e3f7fb" stroke="#16b8d4" stroke-width="2"/>
+  <text x="748" y="271" font-size="17" font-weight="700" fill="#1d1530" text-anchor="middle">MP4</text>
+  <text x="400" y="360" font-size="16" fill="#5d5472" text-anchor="middle">Every frame is captured in turn, so the same page always gives the same video.</text></svg>

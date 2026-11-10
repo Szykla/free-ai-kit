@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 330" width="800" height="330" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">The first-conversation loop</title>
+  <desc id="d">Five boxes in a row, left to right. Step 3: Ask plainly. Step 4: Read like an editor. Step 5: Add missing facts. Step 6: Ask for the shape. Step 7: Finish it yourself. Steps 5 and 6 are bracketed as the two follow-ups. A dashed arrow runs from step 6 back to step 4, labelled: not right yet, read again.</desc>
+  <rect width="800" height="330" fill="#fbf8ff"/>
+
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#5b2a8c"/>
+    </marker>
+  </defs>
+
+  <g font-size="16" fill="#5d5472" text-anchor="middle">
+    <text x="80" y="66">Step 3</text>
+    <text x="240" y="66">Step 4</text>
+    <text x="400" y="66">Step 5</text>
+    <text x="560" y="66">Step 6</text>
+    <text x="720" y="66">Step 7</text>
+  </g>
+
+  <g stroke-width="2">
+    <rect x="12" y="80" width="136" height="90" rx="14" fill="#ffffff" stroke="#e9e2f5"/>
+    <rect x="172" y="80" width="136" height="90" rx="14" fill="#ffffff" stroke="#e9e2f5"/>
+    <rect x="332" y="80" width="136" height="90" rx="14" fill="#fde8f3" stroke="#e83e9c"/>
+    <rect x="492" y="80" width="136" height="90" rx="14" fill="#fde8f3" stroke="#e83e9c"/>
+    <rect x="652" y="80" width="136" height="90" rx="14" fill="#e3f7fb" stroke="#16b8d4"/>
+  </g>
+
+  <g font-size="18" font-weight="600" fill="#1d1530" text-anchor="middle">
+    <text x="80" y="118">Ask</text><text x="80" y="142">plainly</text>
+    <text x="240" y="118">Read like</text><text x="240" y="142">an editor</text>
+    <text x="400" y="118">Add missing</text><text x="400" y="142">facts</text>
+    <text x="560" y="118">Ask for</text><text x="560" y="142">the shape</text>
+    <text x="720" y="118">Finish it</text><text x="720" y="142">yourself</text>
+  </g>
+
+  <g stroke="#5b2a8c" stroke-width="3" fill="none" marker-end="url(#a)">
+    <path d="M150 125 H168"/>
+    <path d="M310 125 H328"/>
+    <path d="M470 125 H488"/>
+    <path d="M630 125 H648"/>
+  </g>
+
+  <!-- Bracket for follow-ups -->
+  <path d="M340 186 V198 H620 V186" fill="none" stroke="#e83e9c" stroke-width="3"/>
+  <text x="480" y="224" font-size="18" fill="#1d1530" text-anchor="middle">the two follow-ups</text>
+
+  <!-- Return loop -->
+  <path d="M560 240 C560 300, 240 300, 240 186" fill="none" stroke="#5b2a8c" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#a)"/>
+  <text x="400" y="314" font-size="17" fill="#5d5472" text-anchor="middle">Not right yet? Read again.</text></svg>

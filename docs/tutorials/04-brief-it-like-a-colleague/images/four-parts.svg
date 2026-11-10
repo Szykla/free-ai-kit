@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="800" role="img" aria-labelledby="t d">
+  <title id="t">The four parts of a brief</title>
+  <desc id="d">A diagram of the four parts of a brief around a figure of a new colleague. Task asks what and why. Context asks what they need to know. Output asks what good looks like. Limits asks what they must not do.</desc>
+  <style>
+    text { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #1d1530; }
+    .lab { font-size: 22px; font-weight: 700; fill: #5b2a8c; }
+    .b { font-size: 18px; }
+    .c { font-size: 18px; font-weight: 700; text-anchor: middle; }
+  </style>
+  <rect width="800" height="460" fill="#fbf8ff"/>
+  <line x1="290" y1="130" x2="360" y2="190" stroke="#e9e2f5" stroke-width="4"/>
+  <line x1="510" y1="130" x2="440" y2="190" stroke="#e9e2f5" stroke-width="4"/>
+  <line x1="290" y1="330" x2="360" y2="280" stroke="#e9e2f5" stroke-width="4"/>
+  <line x1="510" y1="330" x2="440" y2="280" stroke="#e9e2f5" stroke-width="4"/>
+  <circle cx="400" cy="200" r="30" fill="#5b2a8c"/>
+  <path d="M345 300 Q345 240 400 240 Q455 240 455 300 Z" fill="#5b2a8c"/>
+  <text x="400" y="330" class="c">A new colleague</text>
+  <rect x="30" y="40" width="270" height="120" rx="14" fill="#ffffff" stroke="#e83e9c" stroke-width="3"/>
+  <text x="52" y="82" class="lab">1  Task</text>
+  <text x="52" y="114" class="b">What should be made,</text>
+  <text x="52" y="138" class="b">and why?</text>
+  <rect x="500" y="40" width="270" height="120" rx="14" fill="#ffffff" stroke="#e83e9c" stroke-width="3"/>
+  <text x="522" y="82" class="lab">2  Context</text>
+  <text x="522" y="114" class="b">What do they need to know</text>
+  <text x="522" y="138" class="b">that they can't guess?</text>
+  <rect x="30" y="300" width="270" height="120" rx="14" fill="#ffffff" stroke="#e83e9c" stroke-width="3"/>
+  <text x="52" y="342" class="lab">3  Output</text>
+  <text x="52" y="374" class="b">What does good look like:</text>
+  <text x="52" y="398" class="b">format, length, tone?</text>
+  <rect x="500" y="300" width="270" height="120" rx="14" fill="#ffffff" stroke="#e83e9c" stroke-width="3"/>
+  <text x="522" y="342" class="lab">4  Limits</text>
+  <text x="522" y="374" class="b">What must they not do?</text>
+  <text x="522" y="398" class="b">When should they ask?</text></svg>

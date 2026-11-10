@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Maria's Bakery · Fresh bread on Elm Street</title>
+<meta name="description" content="Maria's Bakery: sourdough, croissants and celebration cakes, baked every morning on Elm Street. Opening hours, menu and how to order a cake.">
+<style>
+  :root {
+    --cream: #fbf6ee;
+    --wheat: #f1e2c6;
+    --crust: #c2562f;
+    --crust-dark: #9c3f1f;
+    --ink: #3b2a1e;
+    --muted: #6e5a4a;
+    --line: #e6d5bb;
+    --white: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    font-size: 18px;
+    line-height: 1.55;
+    color: var(--ink);
+    background: var(--cream);
+  }
+  h1, h2, h3 { font-family: Georgia, "Times New Roman", serif; line-height: 1.15; margin: 0 0 .5em; }
+  a { color: var(--crust-dark); }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px; }
+
+  /* Header */
+  header { background: var(--white); border-bottom: 1px solid var(--line); }
+  .bar { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 24px; max-width: 1080px; margin: 0 auto; }
+  .brand { display: flex; align-items: center; gap: 10px; font-family: Georgia, serif; font-size: 22px; font-weight: bold; color: var(--ink); text-decoration: none; }
+  nav a { margin-left: 22px; text-decoration: none; color: var(--muted); font-weight: 600; font-size: 16px; }
+  nav a:hover, nav a:focus { color: var(--crust-dark); text-decoration: underline; }
+
+  /* Hero */
+  .hero { padding: 56px 0 48px; }
+  .hero .wrap { display: grid; grid-template-columns: 1.1fr .9fr; gap: 40px; align-items: center; }
+  .hero h1 { font-size: 52px; }
+  .hero p.lead { font-size: 21px; color: var(--muted); max-width: 32em; }
+  .today { display: inline-block; margin: 8px 0 22px; padding: 8px 14px; background: var(--wheat); border-radius: 999px; font-weight: 600; font-size: 16px; }
+  .btns { display: flex; flex-wrap: wrap; gap: 12px; }
+  .btn { display: inline-block; padding: 13px 22px; border-radius: 10px; font-weight: 700; text-decoration: none; font-size: 17px; }
+  .btn.primary { background: var(--crust); color: var(--white); }
+  .btn.primary:hover, .btn.primary:focus { background: var(--crust-dark); }
+  .btn.ghost { border: 2px solid var(--crust); color: var(--crust-dark); background: transparent; }
+  .art { background: var(--wheat); border-radius: 28px; padding: 24px; }
+  .art svg { width: 100%; height: auto; display: block; }
+
+  /* Sections */
+  section { padding: 48px 0; }
+  section.alt { background: var(--white); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+  h2 { font-size: 36px; }
+  .sub { color: var(--muted); margin-top: -6px; margin-bottom: 26px; }
+
+  /* Menu */
+  .menu { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+  .item { background: var(--cream); border: 1px solid var(--line); border-radius: 16px; padding: 20px; }
+  .item h3 { font-size: 22px; display: flex; justify-content: space-between; gap: 10px; }
+  .item h3 span { font-family: system-ui, sans-serif; font-size: 18px; color: var(--crust-dark); white-space: nowrap; }
+  .item p { margin: 0; color: var(--muted); font-size: 16px; }
+  .tag { display: inline-block; margin-top: 10px; font-size: 14px; font-weight: 700; color: var(--crust-dark); background: var(--wheat); padding: 2px 10px; border-radius: 999px; }
+
+  /* Cakes */
+  .cake { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; align-items: start; }
+  .steps { list-style: none; padding: 0; margin: 0; counter-reset: s; }
+  .steps li { counter-increment: s; position: relative; padding: 0 0 18px 52px; }
+  .steps li::before { content: counter(s); position: absolute; left: 0; top: -2px; width: 36px; height: 36px; border-radius: 50%; background: var(--crust); color: var(--white); font-weight: 700; display: grid; place-items: center; }
+  .note { background: var(--wheat); border-radius: 14px; padding: 18px 20px; font-size: 16px; }
+
+  /* Visit */
+  .visit { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+  table { border-collapse: collapse; width: 100%; background: var(--white); border-radius: 14px; overflow: hidden; border: 1px solid var(--line); }
+  th, td { text-align: left; padding: 11px 16px; border-bottom: 1px solid var(--line); font-size: 17px; }
+  tr:last-child th, tr:last-child td { border-bottom: 0; }
+  tr.closed td { color: var(--muted); font-style: italic; }
+  address { font-style: normal; }
+  .contact p { margin: 0 0 12px; }
+
+  footer { padding: 28px 0 40px; color: var(--muted); font-size: 15px; text-align: center; }
+
+  /* Phone */
+  @media (max-width: 760px) {
+    body { font-size: 17px; }
+    .bar { flex-direction: column; align-items: flex-start; gap: 6px; padding: 12px 20px; }
+    nav a { margin: 0 16px 0 0; }
+    .wrap { padding: 0 20px; }
+    .hero { padding: 28px 0 32px; }
+    .hero .wrap, .cake, .visit { grid-template-columns: 1fr; gap: 24px; }
+    .hero h1 { font-size: 38px; }
+    .hero p.lead { font-size: 18px; }
+    .art { order: -1; padding: 14px; border-radius: 20px; }
+    .menu { grid-template-columns: 1fr; gap: 14px; }
+    h2 { font-size: 30px; }
+    section { padding: 36px 0; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <div class="bar">
+    <a class="brand" href="#top" aria-label="Maria's Bakery, back to top">
+      <svg width="34" height="34" viewBox="0 0 34 34" aria-hidden="true"><ellipse cx="17" cy="19" rx="15" ry="10" fill="#c2562f"/><path d="M9 15 l3 6 M15 13 l3 7 M21 13 l3 6" stroke="#f1e2c6" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg>
+      Maria's Bakery
+    </a>
+    <nav aria-label="Main">
+      <a href="#menu">Menu</a>
+      <a href="#cakes">Cakes</a>
+      <a href="#visit">Visit</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <div class="hero">
+    <div class="wrap">
+      <div>
+        <h1>Bread baked this morning, two streets from you.</h1>
+        <p class="lead">A small neighbourhood bakery on Elm Street. Sourdough, croissants and celebration cakes, made by Maria and her team of two.</p>
+        <p class="today" id="today">Open Tuesday to Sunday · Closed Mondays</p>
+        <div class="btns">
+          <a class="btn primary" href="#menu">See today's bread</a>
+          <a class="btn ghost" href="#cakes">Order a cake</a>
+        </div>
+      </div>
+      <div class="art" aria-hidden="true">
+        <svg viewBox="0 0 400 300">
+          <rect x="0" y="230" width="400" height="70" rx="14" fill="#e6d5bb"/>
+          <ellipse cx="150" cy="200" rx="120" ry="62" fill="#c2562f"/>
+          <ellipse cx="150" cy="186" rx="108" ry="46" fill="#d46a3f"/>
+          <path d="M80 175 q18 -26 36 0 M130 165 q18 -26 36 0 M180 170 q18 -26 36 0" stroke="#f6e3c3" stroke-width="7" stroke-linecap="round" fill="none"/>
+          <path d="M268 232 q20 -64 70 -62 q38 2 44 30 q-30 -10 -52 8 q-26 20 -62 24z" fill="#e0a148"/>
+          <path d="M290 222 q10 -30 36 -36 M312 226 q8 -22 30 -28" stroke="#b97a2a" stroke-width="5" stroke-linecap="round" fill="none"/>
+          <path d="M60 60 q10 -18 0 -36 M90 70 q10 -18 0 -36 M120 60 q10 -18 0 -36" stroke="#ffffff" stroke-width="6" stroke-linecap="round" fill="none" opacity=".8"/>
+        </svg>
+      </div>
+    </div>
+  </div>
+
+  <section class="alt" id="menu" aria-labelledby="menu-h">
+    <div class="wrap">
+      <h2 id="menu-h">What's in the oven</h2>
+      <p class="sub">Baked fresh every day we're open. When it's gone, it's gone.</p>
+      <div class="menu">
+        <article class="item">
+          <h3>Country sourdough <span>£4.20</span></h3>
+          <p>Slow-rising loaf with a dark, crackly crust. Our most popular bread.</p>
+        </article>
+        <article class="item">
+          <h3>Butter croissant <span>£1.90</span></h3>
+          <p>Flaky layers made with real butter. Best before 11 in the morning.</p>
+        </article>
+        <article class="item">
+          <h3>Cinnamon bun <span>£2.40</span></h3>
+          <p>Soft dough rolled with cinnamon sugar and a little cardamom.</p>
+        </article>
+        <article class="item">
+          <h3>Seeded rye <span>£4.50</span></h3>
+          <p>Dense and nutty, with sunflower and pumpkin seeds.</p>
+          <span class="tag">Dairy free</span>
+        </article>
+        <article class="item">
+          <h3>Fruit scone <span>£1.80</span></h3>
+          <p>With sultanas. Ask for butter or jam on the side.</p>
+        </article>
+        <article class="item">
+          <h3>Bread of the week <span>£4.00</span></h3>
+          <p>Something new each week. Check our Instagram on Monday to see what's coming.</p>
+          <span class="tag">Changes weekly</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="cakes" aria-labelledby="cakes-h">
+    <div class="wrap cake">
+      <div>
+        <h2 id="cakes-h">Order a celebration cake</h2>
+        <p class="sub">Birthdays, weddings, a Tuesday that needs cheering up.</p>
+        <ol class="steps">
+          <li><strong>Choose a size.</strong> 6 inch serves 8 people. 8 inch serves 14.</li>
+          <li><strong>Pick a flavour.</strong> Vanilla, chocolate or lemon.</li>
+          <li><strong>Call or email us</strong> at least three days before you need it.</li>
+          <li><strong>Collect it</strong> from the shop. You pay when you collect.</li>
+        </ol>
+      </div>
+      <div class="note">
+        <p><strong>Allergies:</strong> everything is made in one small kitchen that uses wheat, milk, eggs, nuts and sesame. Please tell us about allergies when you order, and we will talk it through with you.</p>
+        <p style="margin-bottom:0"><strong>Prices:</strong> 6 inch from £28, 8 inch from £40. We confirm the price by phone or email before we bake.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="alt" id="visit" aria-labelledby="visit-h">
+    <div class="wrap visit">
+      <div>
+        <h2 id="visit-h">Visit us</h2>
+        <table aria-label="Opening hours">
+          <tbody>
+            <tr class="closed"><th scope="row">Monday</th><td>Closed</td></tr>
+            <tr><th scope="row">Tuesday</th><td>7:00 to 18:00</td></tr>
+            <tr><th scope="row">Wednesday</th><td>7:00 to 18:00</td></tr>
+            <tr><th scope="row">Thursday</th><td>7:00 to 18:00</td></tr>
+            <tr><th scope="row">Friday</th><td>7:00 to 18:00</td></tr>
+            <tr><th scope="row">Saturday</th><td>7:00 to 15:00</td></tr>
+            <tr><th scope="row">Sunday</th><td>8:00 to 13:00</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="contact">
+        <h3>Find us</h3>
+        <address>
+          <p>14 Elm Street<br>Next to the library</p>
+          <p>Phone: <a href="tel:5550142">555-0142</a></p>
+          <p>Email: <a href="mailto:hello@example.com">hello@example.com</a></p>
+        </address>
+        <p>We have one step at the door. Knock or call and we will bring your order out.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>Maria's Bakery · 14 Elm Street · Example site made for the Free AI Kit, tutorial 12. The bakery and its details are made up.</p>
+</footer>
+
+<script>
+  // Show today's opening hours in the hero. Runs only in the visitor's browser; nothing is sent anywhere.
+  (function () {
+    var hours = ["8:00 to 13:00", null, "7:00 to 18:00", "7:00 to 18:00", "7:00 to 18:00", "7:00 to 18:00", "7:00 to 15:00"];
+    var names = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    var d = new Date().getDay();
+    var el = document.getElementById("today");
+    el.textContent = hours[d] ? "Open today (" + names[d] + "): " + hours[d] : "Closed today (Monday). See you Tuesday from 7:00.";
+  })();
+</script>
+</body>
+</html>

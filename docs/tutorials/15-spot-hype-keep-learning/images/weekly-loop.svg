@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" height="400" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">The weekly learning loop</title>
+  <desc id="d">Three stages in a loop. Read: one thing from your three sources. Try: one idea on a real task from your week. Log: one line with the date, the idea and the result. An arrow returns from Log to Read. Below: every three months, check your sources are still free and updated.</desc>
+  <rect width="800" height="400" fill="#fbf8ff"/>
+  <g>
+    <rect x="40" y="90" width="200" height="140" rx="16" fill="#e3f7fb" stroke="#16b8d4" stroke-width="2"/>
+    <text x="140" y="140" font-size="22" font-weight="700" fill="#1d1530" text-anchor="middle">Read</text>
+    <text x="140" y="172" font-size="16" fill="#1d1530" text-anchor="middle">one thing from</text>
+    <text x="140" y="194" font-size="16" fill="#1d1530" text-anchor="middle">your three sources</text>
+    <rect x="300" y="90" width="200" height="140" rx="16" fill="#fde8f3" stroke="#e83e9c" stroke-width="2"/>
+    <text x="400" y="140" font-size="22" font-weight="700" fill="#1d1530" text-anchor="middle">Try</text>
+    <text x="400" y="172" font-size="16" fill="#1d1530" text-anchor="middle">one idea on a real</text>
+    <text x="400" y="194" font-size="16" fill="#1d1530" text-anchor="middle">task from your week</text>
+    <rect x="560" y="90" width="200" height="140" rx="16" fill="#ffffff" stroke="#5b2a8c" stroke-width="2"/>
+    <text x="660" y="140" font-size="22" font-weight="700" fill="#1d1530" text-anchor="middle">Log</text>
+    <text x="660" y="172" font-size="16" fill="#1d1530" text-anchor="middle">date, idea</text>
+    <text x="660" y="194" font-size="16" fill="#1d1530" text-anchor="middle">and result</text>
+  </g>
+  <g stroke="#5d5472" stroke-width="3" fill="none"><path d="M240 160 H292"/><path d="M500 160 H552"/><path d="M660 230 V285 H140 V238"/></g>
+  <g fill="#5d5472"><path d="M290 152 L302 160 L290 168 Z"/><path d="M550 152 L562 160 L550 168 Z"/><path d="M132 240 L140 228 L148 240 Z"/></g>
+  <text x="400" y="45" font-size="21" font-weight="700" fill="#1d1530" text-anchor="middle">30 minutes, once a week</text>
+  <text x="400" y="340" font-size="17" fill="#5d5472" text-anchor="middle">Every three months: check your sources are still free and still updated.</text></svg>

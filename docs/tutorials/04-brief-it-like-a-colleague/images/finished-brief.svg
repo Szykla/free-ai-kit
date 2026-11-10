@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" role="img" aria-labelledby="t d">
+  <title id="t">The finished four-part brief and its drafts</title>
+  <desc id="d">A brief card with four labelled parts, Task, Context, Output and Limits, filled in for Maria's rye bread post. An arrow leads to three short draft posts that use only her facts.</desc>
+  <style>
+    text { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #1d1530; }
+    .h { font-size: 24px; font-weight: 700; }
+    .lab { font-size: 16px; font-weight: 700; fill: #5b2a8c; letter-spacing: 1px; }
+    .b { font-size: 17px; }
+    .m { font-size: 16px; fill: #5d5472; }
+  </style>
+  <rect width="800" height="500" fill="#fbf8ff"/>
+  <text x="30" y="44" class="h">Maria's Instagram brief</text>
+  <rect x="30" y="64" width="440" height="410" rx="14" fill="#ffffff" stroke="#e9e2f5" stroke-width="2"/>
+  <rect x="30" y="64" width="8" height="410" rx="4" fill="#e83e9c"/>
+  <text x="56" y="100" class="lab">TASK</text>
+  <text x="56" y="124" class="b">Announce the new rye loaf so</text>
+  <text x="56" y="146" class="b">regulars come in on Saturday.</text>
+  <line x1="56" y1="164" x2="450" y2="164" stroke="#e9e2f5" stroke-width="2"/>
+  <text x="56" y="192" class="lab">CONTEXT</text>
+  <text x="56" y="216" class="b">Small bakery, two staff, local families.</text>
+  <text x="56" y="238" class="b">On sale Sat from 8am. 30 a day.</text>
+  <text x="56" y="260" class="b">Sourdough starter, caraway seeds.</text>
+  <line x1="56" y1="278" x2="450" y2="278" stroke="#e9e2f5" stroke-width="2"/>
+  <text x="56" y="306" class="lab">OUTPUT</text>
+  <text x="56" y="330" class="b">3 versions, under 80 words, warm</text>
+  <text x="56" y="352" class="b">and plain. End with the time.</text>
+  <line x1="56" y1="370" x2="450" y2="370" stroke="#e9e2f5" stroke-width="2"/>
+  <text x="56" y="398" class="lab">LIMITS</text>
+  <text x="56" y="422" class="b">Only these facts. No prices or emojis.</text>
+  <text x="56" y="444" class="b">Ask me if something is missing.</text>
+  <path d="M484 270 L530 270" stroke="#5b2a8c" stroke-width="4" fill="none"/>
+  <path d="M526 258 L546 270 L526 282 Z" fill="#5b2a8c"/>
+  <rect x="556" y="84" width="214" height="104" rx="12" fill="#e3f7fb" stroke="#16b8d4" stroke-width="2"/>
+  <text x="572" y="114" class="lab">DRAFT 1</text>
+  <rect x="572" y="128" width="180" height="10" rx="5" fill="#16b8d4" opacity="0.45"/>
+  <rect x="572" y="148" width="150" height="10" rx="5" fill="#16b8d4" opacity="0.45"/>
+  <rect x="572" y="168" width="110" height="10" rx="5" fill="#16b8d4" opacity="0.45"/>
+  <rect x="556" y="218" width="214" height="104" rx="12" fill="#e3f7fb" stroke="#16b8d4" stroke-width="2"/>
+  <text x="572" y="248" class="lab">DRAFT 2</text>
+  <rect x="572" y="262" width="170" height="10" rx="5" fill="#16b8d4" opacity="0.45"/>
+  <rect x="572" y="282" width="160" height="10" rx="5" fill="#16b8d4" opacity="0.45"/>
+  <rect x="572" y="302" width="90" height="10" rx="5" fill="#16b8d4" opacity="0.45"/>
+  <rect x="556" y="352" width="214" height="104" rx="12" fill="#e3f7fb" stroke="#16b8d4" stroke-width="2"/>
+  <text x="572" y="382" class="lab">DRAFT 3</text>
+  <rect x="572" y="396" width="176" height="10" rx="5" fill="#16b8d4" opacity="0.45"/>
+  <rect x="572" y="416" width="140" height="10" rx="5" fill="#16b8d4" opacity="0.45"/>
+  <rect x="572" y="436" width="120" height="10" rx="5" fill="#16b8d4" opacity="0.45"/>
+  <text x="556" y="488" class="m">Only Maria's facts</text></svg>

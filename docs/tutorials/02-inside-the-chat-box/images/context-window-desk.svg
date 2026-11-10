@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 470" width="800" height="470" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">What the assistant can see: this chat's context window, and a new chat's</title>
+  <desc id="d">Left panel, This chat: its context window holds Maria's message with the fact that the bakery is closed on Mondays, the assistant's opening-hours sign, and Maria's next message. Right panel, New chat: its context window is empty. Between them, a crossed-out arrow says nothing carries over by itself. Below, a small note card labelled Memory notes, if memory is on, has a dashed arrow into the new chat: memory can add a few saved notes.</desc>
+  <rect width="800" height="470" fill="#fbf8ff"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#5b2a8c"/>
+    </marker>
+  </defs>
+
+  <!-- Left: this chat -->
+  <text x="40" y="44" font-size="22" font-weight="700" fill="#1d1530">This chat</text>
+  <rect x="24" y="60" width="340" height="270" rx="16" fill="#ffffff" stroke="#5b2a8c" stroke-width="3"/>
+  <text x="44" y="90" font-size="16" fill="#5b2a8c" font-weight="600">CONTEXT WINDOW</text>
+  <rect x="120" y="106" width="226" height="58" rx="12" fill="#fde8f3"/>
+  <text x="136" y="132" font-size="17" fill="#1d1530">Maria: we're closed</text>
+  <text x="136" y="154" font-size="17" fill="#1d1530">on Mondays.</text>
+  <rect x="42" y="178" width="226" height="58" rx="12" fill="#f4f0fa"/>
+  <text x="58" y="204" font-size="17" fill="#1d1530">Reply: opening-hours</text>
+  <text x="58" y="226" font-size="17" fill="#1d1530">sign, Monday closed</text>
+  <rect x="120" y="250" width="226" height="58" rx="12" fill="#fde8f3"/>
+  <text x="136" y="276" font-size="17" fill="#1d1530">Maria: next</text>
+  <text x="136" y="298" font-size="17" fill="#1d1530">message...</text>
+
+  <!-- Right: new chat -->
+  <text x="452" y="44" font-size="22" font-weight="700" fill="#1d1530">New chat</text>
+  <rect x="436" y="60" width="340" height="270" rx="16" fill="#ffffff" stroke="#5b2a8c" stroke-width="3"/>
+  <text x="456" y="90" font-size="16" fill="#5b2a8c" font-weight="600">CONTEXT WINDOW</text>
+  <text x="606" y="200" font-size="20" fill="#5d5472" text-anchor="middle">Empty</text>
+
+  <!-- Crossed arrow -->
+  <path d="M372 170 H428" stroke="#5d5472" stroke-width="3" marker-end="url(#a)"/>
+  <path d="M388 156 L412 184 M412 156 L388 184" stroke="#e83e9c" stroke-width="4" stroke-linecap="round"/>
+  <text x="400" y="364" font-size="18" fill="#1d1530" text-anchor="middle">Nothing carries over by itself.</text>
+
+  <!-- Memory notes -->
+  <rect x="190" y="388" width="230" height="62" rx="10" fill="#e3f7fb" stroke="#16b8d4" stroke-width="2"/>
+  <text x="305" y="414" font-size="17" font-weight="600" fill="#1d1530" text-anchor="middle">Memory notes</text>
+  <text x="305" y="436" font-size="16" fill="#5d5472" text-anchor="middle">only if memory is on</text>
+  <path d="M424 418 C560 418, 600 380, 600 336" fill="none" stroke="#16b8d4" stroke-width="3" stroke-dasharray="8 6" marker-end="url(#a)"/>
+  <text x="784" y="452" font-size="16" fill="#5d5472" text-anchor="end">adds a few saved notes</text></svg>

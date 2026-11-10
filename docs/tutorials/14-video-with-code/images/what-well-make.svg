@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Three frames from the finished bakery video</title>
+  <desc id="d">Three tall portrait frames side by side on a timeline. Frame at 0 seconds reads Maria's Bakery. Frame at 4 seconds reads Saturday sourdough is back. Frame at 8 seconds reads Pre-order by Friday. Below them, a file icon labelled bakery-intro.mp4, 10 seconds, 1080 by 1920.</desc>
+  <rect width="800" height="520" fill="#fbf8ff"/>
+  <g>
+    <rect x="70" y="30" width="180" height="320" rx="14" fill="#fde8f3" stroke="#5b2a8c" stroke-width="2"/>
+    <text x="160" y="180" font-size="22" font-weight="700" fill="#1d1530" text-anchor="middle">Maria's</text>
+    <text x="160" y="208" font-size="22" font-weight="700" fill="#1d1530" text-anchor="middle">Bakery</text>
+    <rect x="310" y="30" width="180" height="320" rx="14" fill="#fde8f3" stroke="#5b2a8c" stroke-width="2"/>
+    <text x="400" y="166" font-size="20" font-weight="700" fill="#1d1530" text-anchor="middle">Saturday</text>
+    <text x="400" y="194" font-size="20" font-weight="700" fill="#1d1530" text-anchor="middle">sourdough</text>
+    <text x="400" y="222" font-size="20" font-weight="700" fill="#1d1530" text-anchor="middle">is back</text>
+    <rect x="550" y="30" width="180" height="320" rx="14" fill="#fde8f3" stroke="#5b2a8c" stroke-width="2"/>
+    <text x="640" y="180" font-size="20" font-weight="700" fill="#e83e9c" text-anchor="middle">Pre-order</text>
+    <text x="640" y="208" font-size="20" font-weight="700" fill="#e83e9c" text-anchor="middle">by Friday</text>
+  </g>
+  <!-- timeline -->
+  <line x1="70" y1="385" x2="730" y2="385" stroke="#5d5472" stroke-width="3"/>
+  <g fill="#5b2a8c"><circle cx="160" cy="385" r="7"/><circle cx="400" cy="385" r="7"/><circle cx="640" cy="385" r="7"/></g>
+  <g font-size="18" fill="#1d1530" text-anchor="middle"><text x="160" y="415">0 s</text><text x="400" y="415">4 s</text><text x="640" y="415">8 s</text><text x="730" y="415">10 s</text></g>
+  <!-- file -->
+  <rect x="250" y="438" width="300" height="60" rx="10" fill="#e3f7fb" stroke="#16b8d4" stroke-width="2"/>
+  <text x="400" y="465" font-size="19" font-weight="700" fill="#1d1530" text-anchor="middle">bakery-intro.mp4</text>
+  <text x="400" y="488" font-size="16" fill="#5d5472" text-anchor="middle">10 seconds · 1080 x 1920</text></svg>

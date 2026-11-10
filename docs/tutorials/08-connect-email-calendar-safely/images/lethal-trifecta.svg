@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" width="800" role="img" aria-labelledby="t d">
+  <title id="t">The lethal trifecta, and the leg to cut</title>
+  <desc id="d">Three overlapping circles. Private data: your inbox. Untrusted content: emails from anyone. Can send things out: send, forward, links. The centre where all three overlap is marked Danger. The third circle is crossed out in pink with the label Cut this leg: approvals on.</desc>
+  <rect width="800" height="560" fill="#fbf8ff"/>
+  <text x="400" y="44" text-anchor="middle" font-family="system-ui, sans-serif" font-size="26" font-weight="700" fill="#1d1530">The lethal trifecta</text>
+  <circle cx="300" cy="220" r="150" fill="#e3f7fb" fill-opacity="0.8" stroke="#16b8d4" stroke-width="3"/>
+  <circle cx="500" cy="220" r="150" fill="#ffffff" fill-opacity="0.6" stroke="#5b2a8c" stroke-width="3"/>
+  <circle cx="400" cy="370" r="150" fill="#fde8f3" fill-opacity="0.7" stroke="#e83e9c" stroke-width="3" stroke-dasharray="12 8"/>
+  <g font-family="system-ui, sans-serif" text-anchor="middle">
+    <text x="245" y="170" font-size="21" font-weight="700" fill="#1d1530">Private data</text>
+    <text x="245" y="198" font-size="18" fill="#5d5472">your inbox</text>
+    <text x="540" y="170" font-size="19" font-weight="700" fill="#1d1530">Untrusted content</text>
+    <text x="540" y="198" font-size="18" fill="#5d5472">emails from anyone</text>
+    <text x="400" y="440" font-size="21" font-weight="700" fill="#1d1530">Can send things out</text>
+    <text x="400" y="468" font-size="18" fill="#5d5472">send, forward, links</text>
+    <rect x="345" y="262" width="110" height="36" rx="8" fill="#1d1530"/>
+    <text x="400" y="287" font-size="18" font-weight="700" fill="#ffffff">Danger</text>
+  </g>
+  <line x1="520" y1="410" x2="580" y2="470" stroke="#e83e9c" stroke-width="7"/>
+  <line x1="580" y1="410" x2="520" y2="470" stroke="#e83e9c" stroke-width="7"/>
+  <rect x="230" y="510" width="340" height="40" rx="10" fill="#e83e9c"/>
+  <text x="400" y="537" text-anchor="middle" font-family="system-ui, sans-serif" font-size="19" font-weight="700" fill="#ffffff">Cut this leg: approvals on</text></svg>

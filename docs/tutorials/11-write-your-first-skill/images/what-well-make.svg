@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="800" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title id="t">The finished skill: one folder that works in three apps</title>
+  <desc id="d">A folder named monday-order holds one file, SKILL.md. The file starts with a name line and a description line, then numbered steps. Arrows lead from the folder to three boxes: Claude, Gemini and Codex.</desc>
+  <rect width="800" height="460" fill="#fbf8ff"/>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#5b2a8c"/></marker></defs>
+  <g font-size="18" fill="#1d1530">
+    <path d="M30 60 h120 l20 22 h300 v330 h-440z" fill="#ffffff" stroke="#5b2a8c" stroke-width="2"/>
+    <text x="50" y="112" font-weight="700" font-size="20">monday-order/</text>
+    <rect x="50" y="130" width="400" height="262" rx="10" fill="#fbf8ff" stroke="#e9e2f5" stroke-width="2"/>
+    <text x="66" y="160" font-weight="700">SKILL.md</text>
+    <rect x="66" y="172" width="368" height="126" rx="8" fill="#fde8f3" stroke="#e83e9c" stroke-width="2"/>
+    <text x="80" y="198" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="16">---</text>
+    <text x="80" y="220" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="16">name: monday-order</text>
+    <text x="80" y="242" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="16">description: Works out the</text>
+    <text x="80" y="264" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="16">weekly flour order...</text>
+    <text x="80" y="286" font-family="ui-monospace, Menlo, Consolas, monospace" font-size="16">---</text>
+    <text x="80" y="326" fill="#5d5472" font-size="17">1. Get the two inputs</text>
+    <text x="80" y="350" fill="#5d5472" font-size="17">2. Work out each order</text>
+    <text x="80" y="374" fill="#5d5472" font-size="17">3. Check the stop rules ...</text>
+    <rect x="580" y="70" width="190" height="70" rx="14" fill="#ffffff" stroke="#e9e2f5" stroke-width="2"/>
+    <text x="675" y="112" text-anchor="middle" font-weight="700">Claude</text>
+    <rect x="580" y="195" width="190" height="70" rx="14" fill="#ffffff" stroke="#e9e2f5" stroke-width="2"/>
+    <text x="675" y="237" text-anchor="middle" font-weight="700">Gemini</text>
+    <rect x="580" y="320" width="190" height="70" rx="14" fill="#ffffff" stroke="#e9e2f5" stroke-width="2"/>
+    <text x="675" y="362" text-anchor="middle" font-weight="700">Codex</text>
+  </g>
+  <g stroke="#5b2a8c" stroke-width="3" fill="none" marker-end="url(#a)">
+    <line x1="474" y1="200" x2="574" y2="108"/>
+    <line x1="474" y1="230" x2="574" y2="230"/>
+    <line x1="474" y1="260" x2="574" y2="352"/>
+  </g>
+  <text x="400" y="442" text-anchor="middle" font-size="17" fill="#5d5472">One open format. Write it once, load it where you work.</text></svg>

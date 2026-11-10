@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title id="t">The five parts of an agent brief</title>
+  <desc id="d">Five stacked cards. Objective: what finished looks like. Inputs and tools: what it may use, and what it may not. Steps and checkpoints: where it must stop and show you. Stop rule: when it must stop and ask. Done looks like: the exact output you will check.</desc>
+  <rect width="800" height="520" fill="#fbf8ff"/>
+  <g font-size="18" fill="#1d1530">
+    <rect x="30" y="24" width="740" height="80" rx="14" fill="#ffffff" stroke="#e9e2f5" stroke-width="2"/>
+    <circle cx="74" cy="64" r="22" fill="#5b2a8c"/><text x="74" y="71" text-anchor="middle" fill="#ffffff" font-weight="700">1</text>
+    <text x="112" y="58" font-weight="700">Objective</text>
+    <text x="112" y="85" fill="#5d5472" font-size="17">The one result you want, and who acts on it. "A draft order. I send it."</text>
+
+    <rect x="30" y="122" width="740" height="80" rx="14" fill="#ffffff" stroke="#e9e2f5" stroke-width="2"/>
+    <circle cx="74" cy="162" r="22" fill="#5b2a8c"/><text x="74" y="169" text-anchor="middle" fill="#ffffff" font-weight="700">2</text>
+    <text x="112" y="156" font-weight="700">Inputs and tools</text>
+    <text x="112" y="183" fill="#5d5472" font-size="17">Only these files. No web, no logins, no email. Use code for sums.</text>
+
+    <rect x="30" y="220" width="740" height="80" rx="14" fill="#e3f7fb" stroke="#16b8d4" stroke-width="2"/>
+    <circle cx="74" cy="260" r="22" fill="#16b8d4"/><text x="74" y="267" text-anchor="middle" fill="#ffffff" font-weight="700">3</text>
+    <text x="112" y="254" font-weight="700">Steps and checkpoints</text>
+    <text x="112" y="281" fill="#5d5472" font-size="17">The order of work. "Show me the plan, then wait for my OK."</text>
+
+    <rect x="30" y="318" width="740" height="80" rx="14" fill="#fde8f3" stroke="#e83e9c" stroke-width="3"/>
+    <circle cx="74" cy="358" r="22" fill="#e83e9c"/><text x="74" y="365" text-anchor="middle" fill="#ffffff" font-weight="700">4</text>
+    <text x="112" y="352" font-weight="700">Stop rule</text>
+    <text x="112" y="379" fill="#5d5472" font-size="17">When to stop and ask. Never send, spend or delete.</text>
+
+    <rect x="30" y="416" width="740" height="80" rx="14" fill="#ffffff" stroke="#e9e2f5" stroke-width="2"/>
+    <circle cx="74" cy="456" r="22" fill="#5b2a8c"/><text x="74" y="463" text-anchor="middle" fill="#ffffff" font-weight="700">5</text>
+    <text x="112" y="450" font-weight="700">Done looks like</text>
+    <text x="112" y="477" fill="#5d5472" font-size="17">The exact output you will check, plus a list of anything it was unsure of.</text>
+  </g></svg>

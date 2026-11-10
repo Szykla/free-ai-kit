@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" role="img" aria-labelledby="t d">
+  <title id="t">Your finished privacy setup</title>
+  <desc id="d">A finished checklist card with five ticked rows: training setting chosen, temporary chat opened once, memory checked, never-paste list written, and a one-line AI note. Maria's note reads: Drafted with AI help. I checked every fact. No customer details shared.</desc>
+  <style>
+    text { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #1d1530; }
+    .h { font-size: 24px; font-weight: 700; }
+    .b { font-size: 19px; }
+    .m { font-size: 17px; fill: #5d5472; }
+  </style>
+  <rect width="800" height="480" fill="#fbf8ff"/>
+  <rect x="30" y="24" width="740" height="300" rx="16" fill="#ffffff" stroke="#e9e2f5" stroke-width="2"/>
+  <text x="58" y="66" class="h">My privacy setup</text>
+  <g>
+    <circle cx="74" cy="106" r="14" fill="#16b8d4"/><path d="M67 106 L72 112 L82 100" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <text x="102" y="113" class="b">Training setting chosen</text>
+    <circle cx="74" cy="152" r="14" fill="#16b8d4"/><path d="M67 152 L72 158 L82 146" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <text x="102" y="159" class="b">Temporary chat opened once</text>
+    <circle cx="74" cy="198" r="14" fill="#16b8d4"/><path d="M67 198 L72 204 L82 192" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <text x="102" y="205" class="b">Memory read and tidied</text>
+    <circle cx="74" cy="244" r="14" fill="#16b8d4"/><path d="M67 244 L72 250 L82 238" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <text x="102" y="251" class="b">Never-paste list written</text>
+    <circle cx="74" cy="290" r="14" fill="#16b8d4"/><path d="M67 290 L72 296 L82 284" stroke="#ffffff" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <text x="102" y="297" class="b">One-line AI note ready</text>
+  </g>
+  <rect x="30" y="346" width="740" height="110" rx="16" fill="#fde8f3" stroke="#e83e9c" stroke-width="2"/>
+  <text x="58" y="382" class="m">Maria's AI note</text>
+  <text x="58" y="414" class="b">"Drafted with AI help. I checked every fact.</text>
+  <text x="58" y="440" class="b">No customer details shared."</text></svg>

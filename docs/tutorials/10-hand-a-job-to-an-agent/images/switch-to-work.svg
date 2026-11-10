@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title id="t">Simplified drawing of a chat app with an agent mode switch</title>
+  <desc id="d">A grey chat window. At the top, a switch with two choices, Chat and Work; callout 1 marks Work. At the bottom, the message box; callout 2 marks the plus button for attaching files.</desc>
+  <rect width="800" height="400" fill="#ffffff"/>
+  <rect x="20" y="20" width="760" height="340" rx="14" fill="#fbf8ff" stroke="#e9e2f5" stroke-width="2"/>
+  <rect x="20" y="20" width="180" height="340" rx="14" fill="#f2eefa"/>
+  <g fill="#d9d2e6"><rect x="40" y="56" width="120" height="14" rx="7"/><rect x="40" y="88" width="100" height="14" rx="7"/><rect x="40" y="120" width="130" height="14" rx="7"/></g>
+  <g font-size="18" fill="#1d1530">
+    <rect x="370" y="42" width="220" height="44" rx="22" fill="#e9e2f5"/>
+    <text x="425" y="71" text-anchor="middle" fill="#5d5472">Chat</text>
+    <rect x="482" y="46" width="104" height="36" rx="18" fill="#ffffff" stroke="#e83e9c" stroke-width="3"/>
+    <text x="534" y="71" text-anchor="middle" font-weight="700">Work</text>
+    <g fill="#e9e2f5"><rect x="260" y="130" width="300" height="16" rx="8"/><rect x="260" y="160" width="420" height="16" rx="8"/><rect x="260" y="190" width="360" height="16" rx="8"/></g>
+    <rect x="230" y="270" width="520" height="60" rx="14" fill="#ffffff" stroke="#e9e2f5" stroke-width="2"/>
+    <circle cx="266" cy="300" r="20" fill="#ffffff" stroke="#e83e9c" stroke-width="3"/>
+    <path d="M266 290 v20 M256 300 h20" stroke="#1d1530" stroke-width="3" stroke-linecap="round"/>
+    <text x="300" y="306" fill="#5d5472">Paste your brief here</text>
+  </g>
+  <g font-size="18" font-weight="700" fill="#ffffff">
+    <circle cx="614" cy="64" r="18" fill="#e83e9c"/><text x="614" y="71" text-anchor="middle">1</text>
+    <circle cx="266" cy="250" r="18" fill="#e83e9c"/><text x="266" y="257" text-anchor="middle">2</text>
+  </g>
+  <text x="400" y="388" text-anchor="middle" font-size="16" fill="#5d5472">Simplified drawing. Your screen may look different.</text></svg>

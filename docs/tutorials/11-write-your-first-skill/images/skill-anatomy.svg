@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title id="t">What a skill is made of, and when each part loads</title>
+  <desc id="d">Three layers. First, the name and description, about 100 tokens, which the assistant reads at the start of every chat to decide whether to use the skill. Second, the steps in the rest of SKILL.md, loaded only when the skill is used; keep it under 500 lines. Third, optional folders called references, scripts and assets, opened only if a step needs them.</desc>
+  <rect width="800" height="500" fill="#fbf8ff"/>
+  <g font-size="18" fill="#1d1530">
+    <rect x="30" y="30" width="740" height="120" rx="16" fill="#fde8f3" stroke="#e83e9c" stroke-width="3"/>
+    <circle cx="72" cy="70" r="22" fill="#e83e9c"/><text x="72" y="77" text-anchor="middle" fill="#ffffff" font-weight="700">1</text>
+    <text x="110" y="66" font-weight="700">name + description</text>
+    <text x="110" y="96" fill="#5d5472" font-size="17">Read at the start of every chat, about 100 tokens.</text>
+    <text x="110" y="124" fill="#5d5472" font-size="17">It decides whether the skill is used at all. Write it with care.</text>
+
+    <rect x="30" y="180" width="740" height="120" rx="16" fill="#ffffff" stroke="#5b2a8c" stroke-width="2"/>
+    <circle cx="72" cy="220" r="22" fill="#5b2a8c"/><text x="72" y="227" text-anchor="middle" fill="#ffffff" font-weight="700">2</text>
+    <text x="110" y="216" font-weight="700">The steps (rest of SKILL.md)</text>
+    <text x="110" y="246" fill="#5d5472" font-size="17">Loaded only when the skill is used.</text>
+    <text x="110" y="274" fill="#5d5472" font-size="17">Keep it under 500 lines. Plain Markdown, no fixed format.</text>
+
+    <rect x="30" y="330" width="740" height="120" rx="16" fill="#e3f7fb" stroke="#16b8d4" stroke-width="2"/>
+    <circle cx="72" cy="370" r="22" fill="#16b8d4"/><text x="72" y="377" text-anchor="middle" fill="#ffffff" font-weight="700">3</text>
+    <text x="110" y="366" font-weight="700">Optional folders</text>
+    <text x="110" y="396" fill="#5d5472" font-size="17">references/ for long notes, scripts/ for code, assets/ for templates.</text>
+    <text x="110" y="424" fill="#5d5472" font-size="17">Opened only if a step needs them. Your first skill needs none.</text>
+  </g>
+  <text x="400" y="482" text-anchor="middle" font-size="16" fill="#5d5472">Based on the agentskills.io specification, November 2026.</text></svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" role="img" aria-labelledby="t d">
+  <title id="t">What to share with an AI assistant</title>
+  <desc id="d">Three columns. Never paste, in pink: passwords, card numbers, keys, ID numbers. Strip first, in violet: other people's names, numbers, addresses, health. Fine to share, in cyan: your drafts, public facts, made-up examples.</desc>
+  <style>
+    text { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #1d1530; }
+    .lab { font-size: 22px; font-weight: 700; fill: #ffffff; }
+    .b { font-size: 18px; }
+  </style>
+  <rect width="800" height="420" fill="#ffffff"/>
+  <rect x="20" y="20" width="240" height="380" rx="14" fill="#fde8f3"/>
+  <rect x="20" y="20" width="240" height="60" rx="14" fill="#e83e9c"/>
+  <rect x="20" y="60" width="240" height="20" fill="#e83e9c"/>
+  <text x="40" y="58" class="lab">Never paste</text>
+  <text x="40" y="124" class="b">Passwords</text>
+  <text x="40" y="164" class="b">Bank card numbers</text>
+  <text x="40" y="204" class="b">API keys</text>
+  <text x="40" y="244" class="b">ID numbers</text>
+  <rect x="280" y="20" width="240" height="380" rx="14" fill="#fbf8ff" stroke="#e9e2f5" stroke-width="2"/>
+  <rect x="280" y="20" width="240" height="60" rx="14" fill="#5b2a8c"/>
+  <rect x="280" y="60" width="240" height="20" fill="#5b2a8c"/>
+  <text x="300" y="58" class="lab">Strip first</text>
+  <text x="300" y="124" class="b">Other people's names</text>
+  <text x="300" y="164" class="b">Phone numbers</text>
+  <text x="300" y="204" class="b">Addresses</text>
+  <text x="300" y="244" class="b">Health details</text>
+  <text x="300" y="300" class="b">Write "the customer"</text>
+  <text x="300" y="326" class="b">instead</text>
+  <rect x="540" y="20" width="240" height="380" rx="14" fill="#e3f7fb"/>
+  <rect x="540" y="20" width="240" height="60" rx="14" fill="#16b8d4"/>
+  <rect x="540" y="60" width="240" height="20" fill="#16b8d4"/>
+  <text x="560" y="58" class="lab">Fine to share</text>
+  <text x="560" y="124" class="b">Your own drafts</text>
+  <text x="560" y="164" class="b">Public facts</text>
+  <text x="560" y="204" class="b">Made-up examples</text></svg>

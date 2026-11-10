@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Publishable key and secret key</title>
+  <desc id="d">Left panel: the publishable key lives in the browser, anyone can read it, and it opens only what the RLS rules allow. Right panel: the secret key lives on the server, skips every RLS rule, and must never reach the browser, a chat or GitHub.</desc>
+  <rect width="800" height="420" fill="#fbf8ff"/>
+  <!-- left -->
+  <rect x="30" y="30" width="350" height="350" rx="16" fill="#ffffff" stroke="#16b8d4" stroke-width="3"/>
+  <rect x="30" y="30" width="350" height="60" rx="16" fill="#e3f7fb"/>
+  <text x="205" y="68" font-size="21" font-weight="700" fill="#1d1530" text-anchor="middle">Publishable key</text>
+  <text x="55" y="130" font-size="18" fill="#1d1530">Lives in: the browser page</text>
+  <text x="55" y="165" font-size="18" fill="#1d1530">Anyone can read it.</text>
+  <text x="55" y="200" font-size="18" fill="#1d1530">Opens only what the</text>
+  <text x="55" y="225" font-size="18" fill="#1d1530">RLS rules allow.</text>
+  <rect x="55" y="260" width="300" height="90" rx="10" fill="#e3f7fb"/>
+  <text x="205" y="297" font-size="18" fill="#1d1530" text-anchor="middle">Safe to show,</text>
+  <text x="205" y="322" font-size="18" fill="#1d1530" text-anchor="middle">if RLS is on.</text>
+  <!-- right -->
+  <rect x="420" y="30" width="350" height="350" rx="16" fill="#ffffff" stroke="#e83e9c" stroke-width="3"/>
+  <rect x="420" y="30" width="350" height="60" rx="16" fill="#fde8f3"/>
+  <text x="595" y="68" font-size="21" font-weight="700" fill="#1d1530" text-anchor="middle">Secret key</text>
+  <text x="445" y="130" font-size="18" fill="#1d1530">Lives in: the server only</text>
+  <text x="445" y="165" font-size="18" fill="#1d1530">Skips every RLS rule.</text>
+  <text x="445" y="200" font-size="18" fill="#1d1530">Full access to all data.</text>
+  <rect x="445" y="240" width="300" height="110" rx="10" fill="#fde8f3"/>
+  <text x="595" y="275" font-size="18" font-weight="700" fill="#1d1530" text-anchor="middle">Never in:</text>
+  <text x="595" y="302" font-size="18" fill="#1d1530" text-anchor="middle">the page, a chat,</text>
+  <text x="595" y="327" font-size="18" fill="#1d1530" text-anchor="middle">or GitHub.</text>
+  <text x="400" y="408" font-size="16" fill="#5d5472" text-anchor="middle">If a secret key leaks, rotate it. Deleting the commit is not enough.</text></svg>

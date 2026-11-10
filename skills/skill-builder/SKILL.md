@@ -32,7 +32,7 @@ A folder named like the skill, with `SKILL.md`:
 - Numbered steps, each with a short why.
 - What to do when a tool or source is missing.
 - "Never invent a number."
-Keep it under about 100 lines; move detail into a `reference/` file.
+Keep it under about 100 lines; move detail into a `references/` folder.
 
 ## 5. Test on a known case
 Run it on the job you just did by hand and compare the two results side by side. If

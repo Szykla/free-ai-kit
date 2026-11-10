@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" role="img" aria-labelledby="t d">
+  <title id="t">Where memory lives, and how to remove it</title>
+  <desc id="d">Four boxes. Saved memory: delete it in memory settings. Old chats: delete the chat too. Project memory: stays inside the project. Temporary or incognito chat: nothing is saved. A pink arrow from Old chats to Saved memory says deleting a chat does not delete a memory made from it.</desc>
+  <rect width="800" height="520" fill="#fbf8ff"/>
+  <text x="400" y="50" text-anchor="middle" font-family="system-ui, sans-serif" font-size="26" font-weight="700" fill="#1d1530">Where memory lives, and how to remove it</text>
+  <g font-family="system-ui, sans-serif">
+    <rect x="40" y="90" width="340" height="150" rx="16" fill="#ffffff" stroke="#5b2a8c" stroke-width="3"/>
+    <text x="64" y="132" font-size="22" font-weight="700" fill="#5b2a8c">Saved memory</text>
+    <text x="64" y="170" font-size="18" fill="#1d1530">Delete it in your</text>
+    <text x="64" y="196" font-size="18" fill="#1d1530">memory settings</text>
+    <rect x="420" y="90" width="340" height="150" rx="16" fill="#ffffff" stroke="#5b2a8c" stroke-width="3"/>
+    <text x="444" y="132" font-size="22" font-weight="700" fill="#5b2a8c">Old chats</text>
+    <text x="444" y="170" font-size="18" fill="#1d1530">Delete the chat too, or the</text>
+    <text x="444" y="196" font-size="18" fill="#1d1530">words are still there</text>
+    <rect x="40" y="320" width="340" height="150" rx="16" fill="#e3f7fb" stroke="#16b8d4" stroke-width="3"/>
+    <text x="64" y="362" font-size="22" font-weight="700" fill="#1d1530">Project memory</text>
+    <text x="64" y="400" font-size="18" fill="#1d1530">Stays inside the project</text>
+    <text x="64" y="426" font-size="18" fill="#1d1530">when set to project-only</text>
+    <rect x="420" y="320" width="340" height="150" rx="16" fill="#e3f7fb" stroke="#16b8d4" stroke-width="3"/>
+    <text x="444" y="362" font-size="22" font-weight="700" fill="#1d1530">Temporary chat</text>
+    <text x="444" y="400" font-size="18" fill="#1d1530">Nothing saved to memory</text>
+    <text x="444" y="426" font-size="18" fill="#1d1530">(Claude calls it incognito)</text>
+    <path d="M420 165 L392 165" stroke="#e83e9c" stroke-width="4" marker-end="url(#a)"/>
+    <rect x="200" y="258" width="400" height="44" rx="10" fill="#fde8f3"/>
+    <text x="400" y="287" text-anchor="middle" font-size="17" font-weight="700" fill="#1d1530">Deleting a chat does not delete its memory</text>
+  </g>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#e83e9c"/>
+    </marker>
+  </defs></svg>

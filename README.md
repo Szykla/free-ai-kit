@@ -12,16 +12,11 @@ No sign-up, no email list, no upsell. Copy it, change it, share it (MIT).
 
 | Folder | What it gives you |
 |---|---|
-| [`guides/01-start-here.md`](guides/01-start-here.md) | Pick a tool and a model, set custom instructions that make AI blunt and useful. 15 minutes. |
-| [`guides/02-free-tools.md`](guides/02-free-tools.md) | The free and open-source tools that replace the "$600 of discounts" in paid bundles. |
-| [`guides/03-automate-your-week.md`](guides/03-automate-your-week.md) | Find the work worth automating, then climb from prompt to skill to schedule. |
-| [`guides/04-best-free-courses.md`](guides/04-best-free-courses.md) | The best free courses from OpenAI, Anthropic, Google, Hugging Face and Microsoft, checked and dated. |
-| [`guides/05`](guides/05-context-beats-prompts.md) to [`07`](guides/07-first-automation.md) | Context beats prompts, checking AI's work, your first automation. One running example: a small bakery. |
-| [`guides/08`](guides/08-your-assistant-in-a-week.md) to [`10`](guides/10-memory-in-markdown.md) | Your own AI assistant in a week, Skills 101, memory in plain text files. |
+| [`docs/tutorials/`](docs/tutorials/README.md) | **15 tutorials**, from your first useful chat to publishing an app and making a video with code. Each has pictures and a word-for-word video script. |
 | [`skills/`](skills/) | Ten ready skills (below). |
 | [`docs/where-money-is-well-spent.md`](docs/where-money-is-well-spent.md) | If you do want to pay for AI learning: which offers are worth it, and why. |
 
-Online version: https://szykla.github.io/free-ai-kit/
+Read it online: https://szykla.github.io/free-ai-kit/tutorials/
 
 ## The skills
 

@@ -1,0 +1,17 @@
+title: Learn AI for free · Proxxxy
+markdown: kramdown
+kramdown:
+  input: GFM
+plugins:
+  - jekyll-relative-links
+  - jekyll-readme-index
+relative_links:
+  enabled: true
+  collections: false
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: tutorial
+exclude:
+  - "*.html.bak"

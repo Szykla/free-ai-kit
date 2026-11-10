@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" role="img" aria-labelledby="t d">
+  <title id="t">A safe morning brief</title>
+  <desc id="d">Gmail and Calendar flow into the brief task, which can only read. The brief goes to one place: you. Two paths are marked Blocked in pink: sending or deleting mail, and web search in the same task. A note says replies are drafted, then sent by you.</desc>
+  <rect width="800" height="500" fill="#fbf8ff"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="#5b2a8c"/>
+    </marker>
+  </defs>
+  <g font-family="system-ui, sans-serif">
+    <text x="400" y="44" text-anchor="middle" font-size="26" font-weight="700" fill="#1d1530">A safe morning brief</text>
+    <rect x="40" y="90" width="170" height="64" rx="12" fill="#ffffff" stroke="#16b8d4" stroke-width="3"/>
+    <text x="125" y="130" text-anchor="middle" font-size="20" fill="#1d1530">Gmail</text>
+    <rect x="40" y="190" width="170" height="64" rx="12" fill="#ffffff" stroke="#16b8d4" stroke-width="3"/>
+    <text x="125" y="230" text-anchor="middle" font-size="20" fill="#1d1530">Calendar</text>
+    <path d="M210 122 L300 160" stroke="#5b2a8c" stroke-width="3" marker-end="url(#a)"/>
+    <path d="M210 222 L300 186" stroke="#5b2a8c" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="305" y="120" width="190" height="100" rx="14" fill="#5b2a8c"/>
+    <text x="400" y="164" text-anchor="middle" font-size="21" font-weight="700" fill="#ffffff">Brief task</text>
+    <text x="400" y="194" text-anchor="middle" font-size="17" fill="#ffffff">reads only</text>
+    <path d="M495 170 L585 170" stroke="#5b2a8c" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="590" y="130" width="170" height="80" rx="14" fill="#e3f7fb" stroke="#16b8d4" stroke-width="3"/>
+    <text x="675" y="178" text-anchor="middle" font-size="21" font-weight="700" fill="#1d1530">You</text>
+    <rect x="80" y="320" width="300" height="70" rx="12" fill="#fde8f3" stroke="#e83e9c" stroke-width="3"/>
+    <text x="230" y="348" text-anchor="middle" font-size="16" font-weight="700" fill="#e83e9c">BLOCKED</text>
+    <text x="230" y="376" text-anchor="middle" font-size="18" fill="#1d1530">Send or delete mail</text>
+    <rect x="420" y="320" width="300" height="70" rx="12" fill="#fde8f3" stroke="#e83e9c" stroke-width="3"/>
+    <text x="570" y="348" text-anchor="middle" font-size="16" font-weight="700" fill="#e83e9c">BLOCKED</text>
+    <text x="570" y="376" text-anchor="middle" font-size="18" fill="#1d1530">Web search, same task</text>
+    <path d="M370 220 L270 316" stroke="#e83e9c" stroke-width="3" stroke-dasharray="8 6"/>
+    <path d="M430 220 L530 316" stroke="#e83e9c" stroke-width="3" stroke-dasharray="8 6"/>
+    <text x="400" y="440" text-anchor="middle" font-size="19" fill="#5d5472">Replies: the AI drafts, you read and send.</text>
+  </g></svg>

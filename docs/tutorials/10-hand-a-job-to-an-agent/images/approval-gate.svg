@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" width="800" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title id="t">What an agent may do alone, and what needs your approval</title>
+  <desc id="d">Left box: the agent may read your files, calculate and draft on its own. An arrow leads to a pink gate labelled You approve. Right box: send, spend and delete happen only after the gate.</desc>
+  <rect width="800" height="400" fill="#fbf8ff"/>
+  <defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#5b2a8c"/></marker></defs>
+  <g font-size="18" fill="#1d1530">
+    <rect x="30" y="60" width="270" height="250" rx="16" fill="#e3f7fb" stroke="#16b8d4" stroke-width="2"/>
+    <text x="165" y="100" text-anchor="middle" font-weight="700">Agent works alone</text>
+    <text x="60" y="150">Read your files</text>
+    <text x="60" y="195">Calculate</text>
+    <text x="60" y="240">Draft and show you</text>
+    <rect x="345" y="40" width="110" height="290" rx="16" fill="#fde8f3" stroke="#e83e9c" stroke-width="3"/>
+    <text x="400" y="170" text-anchor="middle" font-weight="700">You</text>
+    <text x="400" y="196" text-anchor="middle" font-weight="700">approve</text>
+    <rect x="500" y="60" width="270" height="250" rx="16" fill="#ffffff" stroke="#e9e2f5" stroke-width="2"/>
+    <text x="635" y="100" text-anchor="middle" font-weight="700">Only after your OK</text>
+    <text x="530" y="150">Send</text>
+    <text x="530" y="195">Spend</text>
+    <text x="530" y="240">Delete</text>
+  </g>
+  <g stroke="#5b2a8c" stroke-width="3" fill="none" marker-end="url(#a)">
+    <line x1="302" y1="185" x2="341" y2="185"/>
+    <line x1="457" y1="185" x2="496" y2="185"/>
+  </g>
+  <text x="400" y="370" text-anchor="middle" font-size="17" fill="#5d5472">Keep approvals on for anything that sends, spends or deletes.</text></svg>

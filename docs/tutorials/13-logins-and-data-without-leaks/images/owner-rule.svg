@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="800" height="460" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">How the owner rule filters orders</title>
+  <desc id="d">Three requesters on the left: customer A, customer B and a signed-out visitor. Each asks for all orders. In the middle, the rule auth.uid() equals user_id checks each row. On the right, A receives only A's two orders, B receives only B's one order, and the visitor receives nothing.</desc>
+  <rect width="800" height="460" fill="#fbf8ff"/>
+  <text x="400" y="40" font-size="22" font-weight="700" fill="#1d1530" text-anchor="middle">Everyone asks for "all orders". The rule decides.</text>
+  <!-- requesters -->
+  <g font-size="18" fill="#1d1530">
+    <rect x="30" y="80" width="170" height="70" rx="12" fill="#ffffff" stroke="#5b2a8c" stroke-width="2"/><text x="115" y="122" text-anchor="middle">Customer A</text>
+    <rect x="30" y="195" width="170" height="70" rx="12" fill="#ffffff" stroke="#5b2a8c" stroke-width="2"/><text x="115" y="237" text-anchor="middle">Customer B</text>
+    <rect x="30" y="310" width="170" height="70" rx="12" fill="#ffffff" stroke="#5d5472" stroke-width="2" stroke-dasharray="6 5"/><text x="115" y="352" text-anchor="middle">Signed out</text>
+  </g>
+  <!-- rule -->
+  <rect x="290" y="80" width="220" height="300" rx="16" fill="#fde8f3" stroke="#e83e9c" stroke-width="3"/>
+  <text x="400" y="200" font-size="20" font-weight="700" fill="#1d1530" text-anchor="middle">The rule</text>
+  <text x="400" y="235" font-size="18" fill="#1d1530" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">auth.uid() =</text>
+  <text x="400" y="260" font-size="18" fill="#1d1530" text-anchor="middle" font-family="ui-monospace, Menlo, Consolas, monospace">user_id</text>
+  <g stroke="#5d5472" stroke-width="3" fill="none"><path d="M200 115 H285"/><path d="M200 230 H285"/><path d="M200 345 H285"/><path d="M510 115 H585"/><path d="M510 230 H585"/><path d="M510 345 H585"/></g>
+  <g fill="#5d5472"><path d="M285 108 L297 115 L285 122 Z"/><path d="M285 223 L297 230 L285 237 Z"/><path d="M285 338 L297 345 L285 352 Z"/><path d="M585 108 L597 115 L585 122 Z"/><path d="M585 223 L597 230 L585 237 Z"/><path d="M585 338 L597 345 L585 352 Z"/></g>
+  <!-- results -->
+  <g font-size="18" fill="#1d1530">
+    <rect x="600" y="80" width="170" height="70" rx="12" fill="#e3f7fb"/><text x="685" y="110" text-anchor="middle">A's 2 orders</text><text x="685" y="135" text-anchor="middle" font-size="16" fill="#5d5472">only</text>
+    <rect x="600" y="195" width="170" height="70" rx="12" fill="#e3f7fb"/><text x="685" y="225" text-anchor="middle">B's 1 order</text><text x="685" y="250" text-anchor="middle" font-size="16" fill="#5d5472">only</text>
+    <rect x="600" y="310" width="170" height="70" rx="12" fill="#ffffff" stroke="#e9e2f5" stroke-width="2"/><text x="685" y="352" text-anchor="middle">Nothing</text>
+  </g>
+  <text x="400" y="430" font-size="17" fill="#5d5472" text-anchor="middle">A rule that only checks "signed in" would give A and B every order.</text></svg>

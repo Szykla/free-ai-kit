@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">A finished scorecard and reading list</title>
+  <desc id="d">Left card: a red-flag scorecard for a video titled This secret prompt runs your Instagram on autopilot. Flags 1, 2, 3 and 4 are ticked yes; flag 5 is no. Result: test before you act. Right card: My reading list with three items, one course, one writer and one YouTube channel, each with a checked date, and the weekly slot Fridays 4:00 to 4:30.</desc>
+  <rect width="800" height="500" fill="#fbf8ff"/>
+  <!-- scorecard -->
+  <rect x="25" y="25" width="380" height="450" rx="16" fill="#ffffff" stroke="#e9e2f5" stroke-width="2"/>
+  <text x="50" y="65" font-size="21" font-weight="700" fill="#1d1530">Red-flag scorecard</text>
+  <text x="50" y="96" font-size="16" fill="#5d5472">"This secret prompt runs your</text>
+  <text x="50" y="118" font-size="16" fill="#5d5472">Instagram on autopilot"</text>
+  <g font-size="18" fill="#1d1530">
+    <text x="50" y="165">1 Secret prompt</text><text x="380" y="165" text-anchor="end" font-weight="700" fill="#e83e9c">yes</text>
+    <text x="50" y="205">2 No real screen</text><text x="380" y="205" text-anchor="end" font-weight="700" fill="#e83e9c">yes</text>
+    <text x="50" y="245">3 Only wins</text><text x="380" y="245" text-anchor="end" font-weight="700" fill="#e83e9c">yes</text>
+    <text x="50" y="285">4 Hidden money</text><text x="380" y="285" text-anchor="end" font-weight="700" fill="#e83e9c">yes</text>
+    <text x="50" y="325">5 Old or undated</text><text x="380" y="325" text-anchor="end" font-weight="700" fill="#5d5472">no</text>
+  </g>
+  <line x1="50" y1="350" x2="380" y2="350" stroke="#e9e2f5" stroke-width="2"/>
+  <rect x="50" y="370" width="330" height="80" rx="10" fill="#fde8f3"/>
+  <text x="215" y="404" font-size="18" font-weight="700" fill="#1d1530" text-anchor="middle">4 of 5 flags</text>
+  <text x="215" y="430" font-size="17" fill="#1d1530" text-anchor="middle">Test it before you act on it.</text>
+  <!-- reading list -->
+  <rect x="430" y="25" width="345" height="450" rx="16" fill="#ffffff" stroke="#5b2a8c" stroke-width="2"/>
+  <text x="455" y="65" font-size="21" font-weight="700" fill="#1d1530">My reading list</text>
+  <g font-size="17">
+    <rect x="455" y="90" width="295" height="74" rx="10" fill="#e3f7fb"/>
+    <text x="470" y="120" font-weight="700" fill="#1d1530">1 course</text><text x="470" y="146" fill="#5d5472">checked 10 Nov 2026</text>
+    <rect x="455" y="178" width="295" height="74" rx="10" fill="#e3f7fb"/>
+    <text x="470" y="208" font-weight="700" fill="#1d1530">1 independent writer</text><text x="470" y="234" fill="#5d5472">checked 10 Nov 2026</text>
+    <rect x="455" y="266" width="295" height="74" rx="10" fill="#e3f7fb"/>
+    <text x="470" y="296" font-weight="700" fill="#1d1530">1 YouTube channel</text><text x="470" y="322" fill="#5d5472">checked 10 Nov 2026</text>
+  </g>
+  <rect x="455" y="370" width="295" height="80" rx="10" fill="#5b2a8c"/>
+  <text x="602" y="404" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">Every week</text>
+  <text x="602" y="430" font-size="17" fill="#ffffff" text-anchor="middle">Fridays 4:00 to 4:30</text></svg>

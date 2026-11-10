@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 430" width="800" height="430" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">How next-word prediction works</title>
+  <desc id="d">The words "Our sourdough tastes best when" are followed by a blank. Below, five possible next words with bars showing how likely each is: toasted is the longest bar, then fresh, shared, still and dunked. The bar lengths are illustrative, not real numbers. A loop on the right says: pick one, add it, repeat. A note says the same question can end differently each time.</desc>
+  <rect width="800" height="430" fill="#fbf8ff"/>
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#5b2a8c"/>
+    </marker>
+  </defs>
+
+  <!-- Sentence so far -->
+  <rect x="24" y="24" width="752" height="68" rx="14" fill="#ffffff" stroke="#e9e2f5" stroke-width="2"/>
+  <text x="48" y="67" font-size="24" fill="#1d1530">Our sourdough tastes best when</text>
+  <rect x="430" y="40" width="110" height="36" rx="8" fill="#fde8f3" stroke="#e83e9c" stroke-width="3" stroke-dasharray="7 5"/>
+  <text x="485" y="66" font-size="22" font-weight="700" fill="#e83e9c" text-anchor="middle">?</text>
+
+  <text x="48" y="134" font-size="18" fill="#5d5472">Possible next words, and how likely each one is</text>
+
+  <!-- Bars -->
+  <g font-size="19" fill="#1d1530">
+    <text x="48" y="180">toasted</text>
+    <text x="48" y="226">fresh</text>
+    <text x="48" y="272">shared</text>
+    <text x="48" y="318">still</text>
+    <text x="48" y="364">dunked</text>
+  </g>
+  <rect x="150" y="160" width="300" height="28" rx="6" fill="#e83e9c"/>
+  <rect x="150" y="206" width="240" height="28" rx="6" fill="#5b2a8c"/>
+  <rect x="150" y="252" width="120" height="28" rx="6" fill="#5b2a8c" opacity="0.75"/>
+  <rect x="150" y="298" width="70" height="28" rx="6" fill="#5b2a8c" opacity="0.55"/>
+  <rect x="150" y="344" width="34" height="28" rx="6" fill="#5b2a8c" opacity="0.4"/>
+  <text x="150" y="406" font-size="16" fill="#5d5472">Bar lengths are illustrative, not real numbers.</text>
+
+  <!-- Loop -->
+  <rect x="540" y="160" width="236" height="170" rx="16" fill="#e3f7fb" stroke="#16b8d4" stroke-width="2"/>
+  <text x="658" y="200" font-size="20" font-weight="700" fill="#1d1530" text-anchor="middle">Pick one,</text>
+  <text x="658" y="228" font-size="20" font-weight="700" fill="#1d1530" text-anchor="middle">add it,</text>
+  <text x="658" y="256" font-size="20" font-weight="700" fill="#1d1530" text-anchor="middle">repeat.</text>
+  <text x="658" y="292" font-size="17" fill="#5d5472" text-anchor="middle">A little chance is</text>
+  <text x="658" y="314" font-size="17" fill="#5d5472" text-anchor="middle">mixed in each time.</text>
+  <path d="M462 174 C500 174, 510 190, 534 200" fill="none" stroke="#5b2a8c" stroke-width="3" marker-end="url(#a)"/>
+  <path d="M658 158 C658 120, 600 104, 556 96" fill="none" stroke="#5b2a8c" stroke-width="3" stroke-dasharray="7 6" marker-end="url(#a)"/>
+  <text x="658" y="372" font-size="17" fill="#1d1530" text-anchor="middle">Same question, different ending.</text></svg>

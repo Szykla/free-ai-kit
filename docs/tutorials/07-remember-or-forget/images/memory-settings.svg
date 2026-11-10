@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" role="img" aria-labelledby="t d">
+  <title id="t">Simplified drawing of memory settings</title>
+  <desc id="d">A generic settings window. The left menu lists General, Personalization and Data controls; Personalization is selected. The right side shows a Memory section with an on switch and a Manage button, marked with pink callout number 1.</desc>
+  <rect width="800" height="440" fill="#fbf8ff"/>
+  <rect x="40" y="30" width="720" height="380" rx="16" fill="#ffffff" stroke="#e9e2f5" stroke-width="3"/>
+  <text x="70" y="75" font-family="system-ui, sans-serif" font-size="24" font-weight="700" fill="#1d1530">Settings</text>
+  <line x1="40" y1="95" x2="760" y2="95" stroke="#e9e2f5" stroke-width="2"/>
+  <line x1="260" y1="95" x2="260" y2="410" stroke="#e9e2f5" stroke-width="2"/>
+  <g font-family="system-ui, sans-serif" font-size="19" fill="#5d5472">
+    <text x="70" y="140">General</text>
+    <rect x="56" y="162" width="190" height="40" rx="8" fill="#e9e2f5"/>
+    <text x="70" y="189" fill="#1d1530" font-weight="700">Personalization</text>
+    <text x="70" y="240">Data controls</text>
+  </g>
+  <g font-family="system-ui, sans-serif">
+    <text x="290" y="140" font-size="21" font-weight="700" fill="#1d1530">Memory</text>
+    <text x="290" y="172" font-size="17" fill="#5d5472">Lets the assistant use what it learned before</text>
+    <rect x="640" y="120" width="70" height="34" rx="17" fill="#5d5472"/>
+    <circle cx="692" cy="137" r="13" fill="#ffffff"/>
+    <rect x="290" y="200" width="420" height="2" fill="#e9e2f5"/>
+    <text x="290" y="245" font-size="19" fill="#1d1530">Saved memories and summary</text>
+    <rect x="590" y="220" width="120" height="42" rx="10" fill="#ffffff" stroke="#e83e9c" stroke-width="4"/>
+    <text x="650" y="248" text-anchor="middle" font-size="19" font-weight="700" fill="#1d1530">Manage</text>
+    <circle cx="740" cy="200" r="20" fill="#e83e9c"/>
+    <text x="740" y="207" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">1</text>
+    <rect x="290" y="290" width="420" height="22" rx="6" fill="#e9e2f5"/>
+    <rect x="290" y="326" width="300" height="22" rx="6" fill="#e9e2f5"/>
+  </g></svg>

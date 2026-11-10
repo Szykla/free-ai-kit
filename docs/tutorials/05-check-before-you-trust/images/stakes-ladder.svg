@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" role="img" aria-labelledby="t d">
+  <title id="t">Match your checking to the stakes</title>
+  <desc id="d">A three-step ladder. Low stakes, such as a caption: read it once. Medium stakes, such as an order that costs money: check every number with code or a calculator. High stakes, such as law, health, money or safety: read the official source and ask a person who knows.</desc>
+  <style>
+    text { font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; fill: #1d1530; }
+    .h { font-size: 22px; font-weight: 700; }
+    .lab { font-size: 20px; font-weight: 700; }
+    .b { font-size: 18px; }
+    .m { font-size: 16px; fill: #5d5472; }
+  </style>
+  <rect width="800" height="440" fill="#fbf8ff"/>
+  <text x="30" y="44" class="h">How much checking? It depends on the stakes.</text>
+  <rect x="30" y="300" width="235" height="110" rx="14" fill="#e3f7fb" stroke="#16b8d4" stroke-width="2"/>
+  <text x="50" y="336" class="lab">Low</text>
+  <text x="50" y="362" class="m">A caption, an idea</text>
+  <text x="50" y="390" class="b">Read it once</text>
+  <rect x="275" y="200" width="235" height="210" rx="14" fill="#ffffff" stroke="#5b2a8c" stroke-width="2"/>
+  <text x="295" y="236" class="lab">Medium</text>
+  <text x="295" y="262" class="m">An order that costs money</text>
+  <text x="295" y="292" class="b">Check every number</text>
+  <text x="295" y="316" class="b">with code or a</text>
+  <text x="295" y="340" class="b">calculator</text>
+  <rect x="520" y="90" width="250" height="320" rx="14" fill="#fde8f3" stroke="#e83e9c" stroke-width="3"/>
+  <text x="540" y="126" class="lab">High</text>
+  <text x="540" y="152" class="m">Law, health, money, safety</text>
+  <text x="540" y="182" class="b">Read the official</text>
+  <text x="540" y="206" class="b">source yourself</text>
+  <text x="540" y="240" class="b">Ask a person who</text>
+  <text x="540" y="264" class="b">knows if unsure</text></svg>

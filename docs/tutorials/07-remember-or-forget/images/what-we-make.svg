@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="800" role="img" aria-labelledby="t d">
+  <title id="t">What the assistant knows about Maria's bakery</title>
+  <desc id="d">A memory card. Three kept facts with check marks: closed on Mondays, flour and butter order every Monday, warm and short writing style. One deleted fact, crossed out: a customer's phone number. A label says the bakery project keeps its own memory.</desc>
+  <rect width="800" height="460" fill="#fbf8ff"/>
+  <rect x="60" y="30" width="680" height="400" rx="18" fill="#ffffff" stroke="#e9e2f5" stroke-width="3"/>
+  <text x="100" y="85" font-family="system-ui, sans-serif" font-size="26" font-weight="700" fill="#1d1530">What it knows about Maria's bakery</text>
+  <line x1="100" y1="105" x2="700" y2="105" stroke="#e9e2f5" stroke-width="2"/>
+  <g font-family="system-ui, sans-serif" font-size="21" fill="#1d1530">
+    <circle cx="118" cy="146" r="15" fill="#e3f7fb" stroke="#16b8d4" stroke-width="2"/>
+    <path d="M110 146 l6 6 l11 -12" fill="none" stroke="#16b8d4" stroke-width="3"/>
+    <text x="148" y="153">Closed on Mondays</text>
+    <circle cx="118" cy="200" r="15" fill="#e3f7fb" stroke="#16b8d4" stroke-width="2"/>
+    <path d="M110 200 l6 6 l11 -12" fill="none" stroke="#16b8d4" stroke-width="3"/>
+    <text x="148" y="207">Orders flour and butter every Monday</text>
+    <circle cx="118" cy="254" r="15" fill="#e3f7fb" stroke="#16b8d4" stroke-width="2"/>
+    <path d="M110 254 l6 6 l11 -12" fill="none" stroke="#16b8d4" stroke-width="3"/>
+    <text x="148" y="261">Likes replies that are warm and short</text>
+    <circle cx="118" cy="308" r="15" fill="#fde8f3" stroke="#e83e9c" stroke-width="2"/>
+    <path d="M110 300 l16 16 M126 300 l-16 16" stroke="#e83e9c" stroke-width="3"/>
+    <text x="148" y="315" fill="#5d5472">A customer's phone number</text>
+    <line x1="146" y1="308" x2="420" y2="308" stroke="#e83e9c" stroke-width="3"/>
+    <text x="440" y="315" font-size="18" font-weight="700" fill="#e83e9c">Deleted</text>
+  </g>
+  <rect x="100" y="350" width="600" height="52" rx="12" fill="#ffffff" stroke="#5b2a8c" stroke-width="2"/>
+  <text x="400" y="383" text-anchor="middle" font-family="system-ui, sans-serif" font-size="19" fill="#5b2a8c">Bakery project: keeps its own memory</text></svg>

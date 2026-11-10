@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">The finished pre-order app</title>
+  <desc id="d">A phone screen showing a bakery pre-order app. The customer is signed in as test-a. Two of her own orders are listed, with an Order for Saturday button. A note says only you can see these orders. Beside the phone, a signed-out visitor sees only the loaf menu.</desc>
+  <rect width="800" height="520" fill="#fbf8ff"/>
+  <!-- phone -->
+  <rect x="60" y="30" width="330" height="460" rx="36" fill="#ffffff" stroke="#1d1530" stroke-width="3"/>
+  <rect x="160" y="46" width="130" height="10" rx="5" fill="#e9e2f5"/>
+  <text x="90" y="100" font-size="24" font-weight="700" fill="#1d1530">Maria's Bakery</text>
+  <text x="90" y="128" font-size="17" fill="#5d5472">Signed in as test-a</text>
+  <text x="90" y="170" font-size="19" font-weight="700" fill="#5b2a8c">My orders</text>
+  <rect x="85" y="185" width="280" height="62" rx="10" fill="#fbf8ff" stroke="#e9e2f5" stroke-width="2"/>
+  <text x="100" y="212" font-size="18" fill="#1d1530">2 x Sourdough</text>
+  <text x="100" y="236" font-size="16" fill="#5d5472">Pickup Saturday</text>
+  <rect x="85" y="257" width="280" height="62" rx="10" fill="#fbf8ff" stroke="#e9e2f5" stroke-width="2"/>
+  <text x="100" y="284" font-size="18" fill="#1d1530">1 x Rye</text>
+  <text x="100" y="308" font-size="16" fill="#5d5472">Pickup Saturday</text>
+  <rect x="85" y="335" width="280" height="50" rx="25" fill="#5b2a8c"/>
+  <text x="225" y="367" font-size="18" font-weight="700" fill="#ffffff" text-anchor="middle">Order for Saturday</text>
+  <rect x="85" y="405" width="280" height="56" rx="10" fill="#e3f7fb"/>
+  <text x="225" y="439" font-size="17" fill="#1d1530" text-anchor="middle">Only you can see these orders.</text>
+  <!-- visitor -->
+  <rect x="440" y="110" width="310" height="300" rx="16" fill="#ffffff" stroke="#e9e2f5" stroke-width="2"/>
+  <text x="465" y="150" font-size="20" font-weight="700" fill="#1d1530">A signed-out visitor</text>
+  <text x="465" y="190" font-size="18" fill="#1d1530">Sees the loaf menu:</text>
+  <text x="485" y="222" font-size="18" fill="#5d5472">Sourdough, Rye, Seeded</text>
+  <line x1="465" y1="248" x2="725" y2="248" stroke="#e9e2f5" stroke-width="2"/>
+  <text x="465" y="286" font-size="18" fill="#1d1530">Sees no orders at all.</text>
+  <rect x="465" y="310" width="260" height="70" rx="10" fill="#fde8f3"/>
+  <text x="595" y="340" font-size="17" fill="#1d1530" text-anchor="middle">Proved with a test,</text>
+  <text x="595" y="364" font-size="17" fill="#1d1530" text-anchor="middle">not just a promise.</text></svg>

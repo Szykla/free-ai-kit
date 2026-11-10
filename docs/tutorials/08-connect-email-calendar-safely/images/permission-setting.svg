@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" role="img" aria-labelledby="t d">
+  <title id="t">Simplified drawing of an app permissions panel</title>
+  <desc id="d">A generic Permissions panel with four options in a list: Always ask, Allow read actions, Allow low-risk actions, Allow all actions. Always ask is selected and marked with pink callout number 1. Allow all actions has a warning triangle.</desc>
+  <rect width="800" height="440" fill="#fbf8ff"/>
+  <rect x="60" y="30" width="680" height="380" rx="16" fill="#ffffff" stroke="#e9e2f5" stroke-width="3"/>
+  <text x="90" y="78" font-family="system-ui, sans-serif" font-size="24" font-weight="700" fill="#1d1530">Permissions</text>
+  <text x="90" y="108" font-family="system-ui, sans-serif" font-size="17" fill="#5d5472">When should the assistant ask you first?</text>
+  <g font-family="system-ui, sans-serif" font-size="20" fill="#1d1530">
+    <rect x="90" y="130" width="560" height="56" rx="10" fill="#fde8f3" stroke="#e83e9c" stroke-width="4"/>
+    <circle cx="122" cy="158" r="12" fill="#ffffff" stroke="#e83e9c" stroke-width="3"/>
+    <circle cx="122" cy="158" r="6" fill="#e83e9c"/>
+    <text x="148" y="165" font-weight="700">Always ask</text>
+    <circle cx="690" cy="158" r="20" fill="#e83e9c"/>
+    <text x="690" y="165" text-anchor="middle" font-weight="700" fill="#ffffff">1</text>
+    <circle cx="122" cy="226" r="12" fill="#ffffff" stroke="#5d5472" stroke-width="2"/>
+    <text x="148" y="233">Allow read actions</text>
+    <circle cx="122" cy="286" r="12" fill="#ffffff" stroke="#5d5472" stroke-width="2"/>
+    <text x="148" y="293">Allow low-risk actions</text>
+    <circle cx="122" cy="346" r="12" fill="#ffffff" stroke="#5d5472" stroke-width="2"/>
+    <text x="148" y="353" fill="#5d5472">Allow all actions</text>
+    <path d="M340 362 L356 334 L372 362 Z" fill="#ffffff" stroke="#e83e9c" stroke-width="3"/>
+    <text x="356" y="358" text-anchor="middle" font-size="17" font-weight="700" fill="#e83e9c">!</text>
+    <text x="384" y="353" font-size="17" fill="#e83e9c">higher risk</text>
+  </g></svg>

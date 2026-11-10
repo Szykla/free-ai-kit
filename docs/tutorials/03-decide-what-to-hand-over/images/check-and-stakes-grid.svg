@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif" role="img" aria-labelledby="t d">
+  <title id="t">Two questions decide where a task goes</title>
+  <desc id="d">A two-by-two grid. Columns: can I check it, easy or hard. Rows: what if it's wrong, low or high. Easy to check, low stakes: AI does it, I glance. Hard to check, low stakes: AI helps, I check the parts that matter. Easy to check, high stakes: AI helps, I check every line. Hard to check, high stakes: I do it. A pink bar below the grid: anything that sends, spends or deletes, or needs my hands or my name, stays with me.</desc>
+  <rect width="800" height="520" fill="#fbf8ff"/>
+
+  <!-- Column axis -->
+  <text x="480" y="36" font-size="20" font-weight="700" fill="#1d1530" text-anchor="middle">Can I check it?</text>
+  <text x="330" y="68" font-size="18" fill="#5d5472" text-anchor="middle">Easy</text>
+  <text x="630" y="68" font-size="18" fill="#5d5472" text-anchor="middle">Hard</text>
+
+  <!-- Row axis -->
+  <text x="90" y="88" font-size="20" font-weight="700" fill="#1d1530" text-anchor="middle">What if</text>
+  <text x="90" y="112" font-size="20" font-weight="700" fill="#1d1530" text-anchor="middle">it's wrong?</text>
+  <text x="90" y="166" font-size="18" fill="#5d5472" text-anchor="middle">Low</text>
+  <text x="90" y="326" font-size="18" fill="#5d5472" text-anchor="middle">High</text>
+
+  <!-- Cells -->
+  <rect x="180" y="82" width="300" height="150" rx="14" fill="#e3f7fb" stroke="#16b8d4" stroke-width="2"/>
+  <rect x="484" y="82" width="300" height="150" rx="14" fill="#ffffff" stroke="#5b2a8c" stroke-width="2"/>
+  <rect x="180" y="242" width="300" height="150" rx="14" fill="#ffffff" stroke="#5b2a8c" stroke-width="2"/>
+  <rect x="484" y="242" width="300" height="150" rx="14" fill="#fde8f3" stroke="#e83e9c" stroke-width="2"/>
+
+  <g font-size="22" font-weight="700" text-anchor="middle">
+    <text x="330" y="148" fill="#1d1530">AI does it</text>
+    <text x="634" y="148" fill="#5b2a8c">AI helps</text>
+    <text x="330" y="308" fill="#5b2a8c">AI helps</text>
+    <text x="634" y="308" fill="#1d1530">I do it</text>
+  </g>
+  <g font-size="17" fill="#5d5472" text-anchor="middle">
+    <text x="330" y="180">I glance at it.</text>
+    <text x="634" y="180">I check the parts</text>
+    <text x="634" y="202">that matter.</text>
+    <text x="330" y="340">I check every line.</text>
+    <text x="634" y="340">AI can help me think,</text>
+    <text x="634" y="362">not decide.</text>
+  </g>
+
+  <!-- Override bar -->
+  <rect x="16" y="414" width="768" height="88" rx="14" fill="#e83e9c"/>
+  <text x="400" y="450" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">Always mine: anything that sends, spends or deletes,</text>
+  <text x="400" y="478" font-size="19" font-weight="700" fill="#ffffff" text-anchor="middle">or needs my hands or my name.</text></svg>

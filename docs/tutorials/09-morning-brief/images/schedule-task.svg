@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" role="img" aria-labelledby="t d">
+  <title id="t">Simplified drawing of a Scheduled page</title>
+  <desc id="d">A generic Scheduled page. A left sidebar has a highlighted Scheduled item. At the top right, a text box labelled Schedule a task is marked with pink callout number 1. Below it, an Active filter and one task row: Morning brief, daily, morning.</desc>
+  <rect width="800" height="440" fill="#fbf8ff"/>
+  <rect x="30" y="30" width="740" height="380" rx="16" fill="#ffffff" stroke="#e9e2f5" stroke-width="3"/>
+  <line x1="210" y1="30" x2="210" y2="410" stroke="#e9e2f5" stroke-width="2"/>
+  <g font-family="system-ui, sans-serif">
+    <rect x="50" y="60" width="140" height="22" rx="6" fill="#e9e2f5"/>
+    <rect x="50" y="100" width="110" height="22" rx="6" fill="#e9e2f5"/>
+    <rect x="44" y="140" width="152" height="40" rx="8" fill="#e9e2f5"/>
+    <text x="58" y="167" font-size="18" font-weight="700" fill="#1d1530">Scheduled</text>
+    <rect x="50" y="200" width="120" height="22" rx="6" fill="#e9e2f5"/>
+    <text x="240" y="78" font-size="24" font-weight="700" fill="#1d1530">Scheduled</text>
+    <rect x="240" y="100" width="470" height="56" rx="12" fill="#ffffff" stroke="#e83e9c" stroke-width="4"/>
+    <text x="262" y="135" font-size="19" fill="#5d5472">Schedule a task</text>
+    <circle cx="740" cy="100" r="20" fill="#e83e9c"/>
+    <text x="740" y="107" text-anchor="middle" font-size="20" font-weight="700" fill="#ffffff">1</text>
+    <rect x="240" y="186" width="90" height="34" rx="17" fill="#e9e2f5"/>
+    <text x="285" y="209" text-anchor="middle" font-size="17" fill="#1d1530">Active</text>
+    <rect x="240" y="240" width="500" height="70" rx="12" fill="#ffffff" stroke="#e9e2f5" stroke-width="2"/>
+    <text x="262" y="270" font-size="19" font-weight="700" fill="#1d1530">Morning brief</text>
+    <text x="262" y="296" font-size="17" fill="#5d5472">Daily, morning</text>
+    <rect x="240" y="330" width="500" height="22" rx="6" fill="#e9e2f5"/>
+    <rect x="240" y="366" width="340" height="22" rx="6" fill="#e9e2f5"/>
+  </g></svg>

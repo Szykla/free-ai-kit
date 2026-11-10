@@ -26,8 +26,9 @@ Last checked: November 2026.
   your AI for decisions and action items.
 
 ## Building apps and sites
-- **Claude Code, Codex CLI, Gemini CLI.** Agents that write and run code; they use
-  your existing plan or a free tier.
+- **Coding agents (Claude Code, Codex).** Agents that write and run code. Claude Code
+  needs a paid Claude plan; Codex is limited on ChatGPT Free. Gemini CLI's free tier
+  ended in June 2026. For a free start, ask any free chat AI for a single `index.html`.
 - **GitHub Pages, Cloudflare Pages.** Free static hosting with HTTPS.
 - **VS Code.** Free editor.
 

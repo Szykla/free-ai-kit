@@ -1,5 +1,7 @@
 Title: Keep your private things private
+
 Target length: 5 min · Written version: [README.md](README.md) · App/version checked: November 2026 (ChatGPT, Claude and Gemini help pages, 10 November 2026)
+
 Chapters (YouTube description): 00:00 Result · 00:20 What you need · 00:35 Step 1 Three piles · 01:10 Step 2 Training setting · 02:10 Step 3 Temporary chat · 02:55 Step 4 Memory · 03:30 Step 5 Feedback buttons · 04:00 Step 6 Your AI note · 04:30 Practice
 
 | # | Time | Visual (screen action, zoom/crop, callout, on-screen label) | Audio (exact narration) | Notes |

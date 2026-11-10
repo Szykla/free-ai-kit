@@ -1,5 +1,7 @@
 Title: Write your first skill
+
 Target length: 4 min 30 s · Written version: [README.md](README.md) · App/version checked: November 2026 (Claude web, Customize > Skills)
+
 Chapters (YouTube description): 00:00 Result · 00:20 What you need · 00:40 What a skill is · 01:05 Capture the job · 01:25 Fixed or varying · 01:45 Write the description · 02:15 Write SKILL.md · 02:50 Check the rules · 03:10 Load it · 03:45 Test it · 04:05 Practice
 
 | # | Time | Visual (screen action, zoom/crop, callout, on-screen label) | Audio (exact narration) | Notes |

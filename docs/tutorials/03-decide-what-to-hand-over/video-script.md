@@ -1,5 +1,7 @@
 Title: Decide what to hand to AI
+
 Target length: 4 min 30 s (about 460 spoken words; writing on screen and pauses fill the rest) · Written version: [README.md](README.md) · App/version checked: November 2026
+
 Chapters (YouTube description): 00:00 Result · 00:20 What you need · 00:35 The jagged frontier · 01:10 List your week · 01:30 Two questions · 02:05 Sort into three · 02:40 Let AI challenge you · 03:15 Test one task · 03:45 Your one-line plan · 04:05 Practice
 
 | # | Time | Visual (screen action, zoom/crop, callout, on-screen label) | Audio (exact narration) | Notes |

@@ -1,5 +1,7 @@
 Title: Build a morning brief that runs itself
+
 Target length: about 5 min · Written version: [README.md](README.md) · App/version checked: November 2026
+
 Chapters (YouTube description): 00:00 Result · 00:20 What you need · 00:50 Let it read · 01:15 Test the brief by hand · 02:05 Schedule it · 02:45 Notifications · 03:05 Check it for three days · 03:40 Pause or delete · 04:00 Other apps and the upgrade · 04:35 Practice
 
 | # | Time | Visual (screen action, zoom/crop, callout, on-screen label) | Audio (exact narration) | Notes |

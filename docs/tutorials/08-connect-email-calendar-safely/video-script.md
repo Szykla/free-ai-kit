@@ -1,5 +1,7 @@
 Title: Connect your email and calendar safely
+
 Target length: about 5 min · Written version: [README.md](README.md) · App/version checked: November 2026
+
 Chapters (YouTube description): 00:00 Result · 00:20 What you need · 00:45 The lethal trifecta · 01:25 Set permission first · 02:00 Connect Gmail and Calendar · 02:45 A read-only question · 03:20 Fire drill · 04:05 Switch it off · 04:25 Claude and Gemini · 04:40 Practice
 
 | # | Time | Visual (screen action, zoom/crop, callout, on-screen label) | Audio (exact narration) | Notes |

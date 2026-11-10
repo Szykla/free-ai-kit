@@ -1,5 +1,7 @@
 Title: Spot hype and keep learning
+
 Target length: 4 min 30 s · Written version: [README.md](README.md) · App/version checked: November 2026 (resource list checked 10 November 2026)
+
 Chapters (YouTube description): 00:00 Result · 00:20 What you need · 00:35 Step 1 Pick one post · 00:50 Step 2 Five red flags · 01:55 Step 3 Check the claims · 02:40 Step 4 Test one idea · 03:00 Step 5 Pick three sources · 03:30 Steps 6 and 7 Weekly slot and log · 04:00 Practice
 
 | # | Time | Visual (screen action, zoom/crop, callout, on-screen label) | Audio (exact narration) | Notes |

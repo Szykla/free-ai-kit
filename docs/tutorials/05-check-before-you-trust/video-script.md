@@ -1,5 +1,7 @@
 Title: Check before you trust
+
 Target length: 4 min 30 s · Written version: [README.md](README.md) · App/version checked: November 2026
+
 Chapters (YouTube description): 00:00 Result · 00:20 What you need · 00:35 Step 1 Mark the hotspots · 01:15 Step 2 Search and sources · 01:50 Step 3 Open the sources · 02:20 Step 4 Maths with code · 02:55 Step 5 Argue against itself · 03:25 Step 6 Stakes and verdict · 04:05 Practice
 
 | # | Time | Visual (screen action, zoom/crop, callout, on-screen label) | Audio (exact narration) | Notes |

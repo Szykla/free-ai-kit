@@ -1,5 +1,7 @@
 Title: Hand a multi-step job to an agent
+
 Target length: 4 min 30 s · Written version: [README.md](README.md) · App/version checked: November 2026 (ChatGPT desktop app, Work)
+
 Chapters (YouTube description): 00:00 Result · 00:20 What you need · 00:40 Pick the job · 01:00 Gather the files · 01:20 Write the brief · 02:05 Start the agent · 02:35 Checkpoint 1 · 03:00 Checkpoint 2 · 03:35 Send it yourself · 04:00 Practice
 
 | # | Time | Visual (screen action, zoom/crop, callout, on-screen label) | Audio (exact narration) | Notes |

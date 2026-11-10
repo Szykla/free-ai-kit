@@ -1,5 +1,7 @@
 Title: Make the AI remember you, or forget you
+
 Target length: about 4 min 40 s · Written version: [README.md](README.md) · App/version checked: November 2026
+
 Chapters (YouTube description): 00:00 Result · 00:20 What you need · 00:40 See what it knows · 01:15 Delete one thing · 01:50 Save facts on purpose · 02:20 A project with its own memory · 03:05 Ask where it learned it · 03:30 Temporary chats · 03:55 Claude and Gemini · 04:15 Practice
 
 | # | Time | Visual (screen action, zoom/crop, callout, on-screen label) | Audio (exact narration) | Notes |

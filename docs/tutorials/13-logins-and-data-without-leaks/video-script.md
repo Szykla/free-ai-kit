@@ -1,5 +1,7 @@
 Title: Add logins and data without leaking them
+
 Target length: 5 min 30 s · Written version: [README.md](README.md) · App/version checked: November 2026 (from Lovable's docs; record against the live app and fix any changed labels first)
+
 Chapters (YouTube description): 00:00 Result · 00:25 What you need · 00:50 Step 1 Spec · 01:15 Step 2 Sign-in · 01:45 Step 3 Policies · 02:20 Step 4 Owner rule · 02:55 Step 5 Two-account test · 03:35 Step 6 Scans · 04:05 Step 7 Publish and checklist · 05:00 Practice
 
 | # | Time | Visual (screen action, zoom/crop, callout, on-screen label) | Audio (exact narration) | Notes |

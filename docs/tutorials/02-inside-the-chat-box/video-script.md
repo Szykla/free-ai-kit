@@ -1,5 +1,7 @@
 Title: What is really happening inside the chat box
+
 Target length: 4 min 30 s (about 450 spoken words; typing on screen and pauses fill the rest) · Written version: [README.md](README.md) · App/version checked: November 2026
+
 Chapters (YouTube description): 00:00 Result · 00:20 What you need · 00:35 Prediction · 01:15 Made-up details · 02:00 Knowledge cutoff · 02:35 Context window · 03:00 Temporary chat · 03:50 Your card · 04:10 Practice
 
 | # | Time | Visual (screen action, zoom/crop, callout, on-screen label) | Audio (exact narration) | Notes |

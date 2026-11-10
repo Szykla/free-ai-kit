@@ -1,5 +1,7 @@
 Title: Build and publish a one-page site without coding
+
 Target length: 4 min 40 s · Written version: [README.md](README.md) · App/version checked: November 2026
+
 Chapters (YouTube description): 00:00 Result · 00:20 What you need · 00:35 Write the spec · 01:05 Ask for one file · 01:35 Save and preview · 02:15 Publish on Cloudflare · 03:15 Keep a copy on GitHub · 03:50 Update it · 04:10 Practice
 
 | # | Time | Visual (screen action, zoom/crop, callout, on-screen label) | Audio (exact narration) | Notes |

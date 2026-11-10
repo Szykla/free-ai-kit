@@ -1,5 +1,7 @@
 Title: Your first useful conversation with an AI assistant
+
 Target length: 4 min (about 390 spoken words; typing on screen and pauses fill the rest) · Written version: [README.md](README.md) · App/version checked: November 2026
+
 Chapters (YouTube description): 00:00 Result · 00:20 What you need · 00:40 Open an assistant · 01:00 Pick a real task · 01:20 Ask plainly · 01:50 Read like an editor · 02:25 Follow-up 1: add facts · 03:00 Follow-up 2: ask for the shape · 03:20 Finish it yourself · 03:40 Practice
 
 | # | Time | Visual (screen action, zoom/crop, callout, on-screen label) | Audio (exact narration) | Notes |

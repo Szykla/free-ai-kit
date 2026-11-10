@@ -1,5 +1,7 @@
 Title: Make a 10-second video with code
+
 Target length: 4 min 45 s · Written version: [README.md](README.md) · App/version checked: November 2026 (from the HyperFrames docs; not yet run end to end by us, so do a full dry run before recording)
+
 Chapters (YouTube description): 00:00 Result · 00:20 What you need · 00:45 Step 1 Install · 01:05 Step 2 Create the project · 01:35 Step 3 Doctor · 01:55 Step 4 Brief the AI · 02:45 Step 5 Lint and preview · 03:25 Step 6 Render · 03:50 Step 7 Watch it · 04:15 Practice
 
 | # | Time | Visual (screen action, zoom/crop, callout, on-screen label) | Audio (exact narration) | Notes |

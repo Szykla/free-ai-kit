@@ -1,5 +1,7 @@
 Title: Brief it like a new colleague
+
 Target length: 4 min · Written version: [README.md](README.md) · App/version checked: November 2026
+
 Chapters (YouTube description): 00:00 Result · 00:20 What you need · 00:35 Step 1 The one-liner · 01:00 Step 2 Task · 01:20 Step 3 Context · 01:50 Step 4 Output · 02:10 Step 5 Limits · 02:40 Step 6 Improve the brief · 03:10 Step 7 Save it · 03:35 Practice
 
 | # | Time | Visual (screen action, zoom/crop, callout, on-screen label) | Audio (exact narration) | Notes |

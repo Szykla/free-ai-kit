@@ -23,7 +23,7 @@ words you'd actually say.
 ## Install one (2 minutes)
 - **Claude Code:** copy the folder into `~/.claude/skills/` (all projects) or
   `.claude/skills/` in one project. Ask for the job; it picks the skill up.
-- **Claude app:** upload the skill under Settings > Capabilities > Skills, where your
+- **Claude app:** upload the skill folder in the app's skills settings, where your
   plan offers it.
 - **Any other chat:** paste the file's text and say "follow this for the rest of the chat".
 

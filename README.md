@@ -17,6 +17,7 @@ No sign-up, no email list, no upsell. Copy it, change it, share it (MIT).
 | [`guides/03-automate-your-week.md`](guides/03-automate-your-week.md) | Find the work worth automating, then climb from prompt to skill to schedule. |
 | [`guides/04-best-free-courses.md`](guides/04-best-free-courses.md) | The best free courses from OpenAI, Anthropic, Google, Hugging Face and Microsoft, checked and dated. |
 | [`guides/05`](guides/05-context-beats-prompts.md) to [`07`](guides/07-first-automation.md) | Context beats prompts, checking AI's work, your first automation. One running example: a small bakery. |
+| [`guides/08`](guides/08-your-assistant-in-a-week.md) to [`10`](guides/10-memory-in-markdown.md) | Your own AI assistant in a week, Skills 101, memory in plain text files. |
 | [`skills/`](skills/) | Ten ready skills (below). |
 | [`docs/where-money-is-well-spent.md`](docs/where-money-is-well-spent.md) | If you do want to pay for AI learning: which offers are worth it, and why. |
 

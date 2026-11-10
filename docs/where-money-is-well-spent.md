@@ -28,7 +28,7 @@ Score each point 0, 1 or 2.
 2. **What the money adds.** Feedback, office hours, templates or a group, beyond their free content?
 3. **Honest about fit.** Do they say who should not buy?
 4. **No income promises.** "$10K a month", earnings screenshots or "$20K clients" headlines lose points.
-5. **Refunds and cancelling.** A clear refund window and an easy cancel? "All sales final" counts against it.
+5. **Refunds and cancelling.** A clear refund window and an easy cancel? "All sales final" counts against it. A refund for finishing the work is a strong plus.
 6. **Long-term members.** Real people "still paying after 6+ months", not just a star average.
 7. **Referral money.** If members or review sites earn commission for sending you, discount their praise.
 8. **The upsell ladder.** A cheap entry leading to a $2,000+ "inner circle"? Judge the top step.

@@ -1,7 +1,9 @@
 # Write your first skill
 
 Checked: November 2026 · Works on: Claude (Free and paid, with code execution on), Gemini (18+), Codex · Time: 30 min
+
 You need: a job you have done at least twice, a plain text editor, and an account with one of the apps above
+
 Video version: [video script](video-script.md) (video coming later) · Next lesson: [12. Build and publish a one-page site](../12-publish-a-one-page-app/README.md)
 
 Plan check: Claude's help centre says skills work on Free, Pro, Max, Team and Enterprise. Anthropic's developer docs leave Free out for custom uploads, so check your plan's help page if upload fails. Gemini skills need you to be 18 or over. Codex is limited on ChatGPT Free, and OpenAI does not say clearly which Codex apps Free covers.
@@ -23,7 +25,7 @@ The finished file is here: [example/monday-order/SKILL.md](example/monday-order/
 
 The format is an open standard, published at agentskills.io. Anthropic first released it in December 2025. Claude, Codex and Gemini all read it, so one folder works in all three.
 
-This lesson follows the five stages of the kit's own [skill-builder](../../skills/skill-builder/SKILL.md) skill. They are: capture the job, split fixed from varying, place approval steps, write it, and test it. Read that file now. It is itself a skill, and it is only 40 lines long.
+This lesson follows the five stages of the kit's own [skill-builder](https://github.com/Szykla/free-ai-kit/blob/main/skills/skill-builder/SKILL.md) skill. They are: capture the job, split fixed from varying, place approval steps, write it, and test it. Read that file now. It is itself a skill, and it is only 40 lines long.
 
 ## Steps
 
@@ -131,7 +133,7 @@ This lesson follows the five stages of the kit's own [skill-builder](../../skill
 
 ## Practice on your own life
 
-Start: a job you have done with an AI at least twice, such as a weekly family meal plan. Goal: a working skill you load in one app and test against last time's result. This time, let the kit's skill-builder lead. Upload [skill-builder](../../skills/skill-builder/SKILL.md) the same way as step 6, then say "Turn this job into a skill" and answer its questions. Check its draft against the list in step 5 before you upload it.
+Start: a job you have done with an AI at least twice, such as a weekly family meal plan. Goal: a working skill you load in one app and test against last time's result. This time, let the kit's skill-builder lead. Upload [skill-builder](https://github.com/Szykla/free-ai-kit/blob/main/skills/skill-builder/SKILL.md) the same way as step 6, then say "Turn this job into a skill" and answer its questions. Check its draft against the list in step 5 before you upload it.
 
 ## What you made
 

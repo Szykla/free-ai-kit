@@ -1,7 +1,9 @@
 # Your first useful conversation with an AI assistant
 
 Checked: November 2026 · Works on: ChatGPT Free, Claude Free or Gemini (free personal Google Account) · Time: 15 min
+
 You need: a free account with one of those three apps, and one small, real task from your week. No coding, no paid plan.
+
 Video version: [video script](video-script.md) (video coming later) · Next lesson: [What is really happening inside the chat box](../02-inside-the-chat-box/README.md)
 
 **Plan note:** every free plan above is enough for this lesson. Free plans have usage limits, and those limits change often. If you hit one, check your plan's help page or switch to one of the other two apps.

@@ -1,11 +1,14 @@
 # Connect your email and calendar safely
 
 Checked: November 2026 · Works on: ChatGPT (main path), Claude, Gemini · Time: 25 min
+
 You need: a ChatGPT account, a Gmail account with Google Calendar, and lesson 7 done (you know where your memory settings are).
+
 Plan notes: the sources disagree on which free plans include Gmail and Calendar. Read this before you start.
 - **ChatGPT:** OpenAI says app availability "depends on" your plan, region and app. A 2026 release note says multi-account Google plugins are on all plans. Some independent 2026 guides say Gmail needs a paid plan. Open **Settings > Plugins** to see what your account offers. Sending email from a chat is Plus and above, on the web.
 - **Claude:** the help centre says the Google Workspace connectors are "available for all users". Claude's connector docs say Gmail and Calendar are for Pro and above. Check your plan's help page and **Customize > Connectors** on your account.
 - **Gemini:** connecting Google apps through Personal Intelligence needs a personal account, age 18+ and Keep Activity on. It is not available in the EEA, the UK, Switzerland or Nigeria.
+
 Video version: [video script](video-script.md) (video coming later) · Next lesson: [Build a morning brief that runs itself](../09-morning-brief/README.md)
 
 ## What we'll make

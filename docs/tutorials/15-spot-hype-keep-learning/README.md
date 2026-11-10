@@ -1,7 +1,9 @@
 # Spot hype and keep learning
 
 Checked: November 2026 · Works on: any free chat AI with web search, and a web browser · Time: 30 min, then 30 min a week
+
 You need: one AI video or post you were about to trust, a notes app, and your calendar
+
 Video version: [video script](video-script.md) (video coming later) · Next lesson: this is the last lesson. Go back to [the start](../01-first-useful-conversation/README.md) when you want a refresher.
 
 > **Cost check.** Everything in this lesson is free. The resource list below marks what is free, what is partly free, and what only looks free. Prices were checked on 10 November 2026.

@@ -1,8 +1,11 @@
 # Make a 10-second video with code
 
 Checked: November 2026 · Works on: any computer that can install Node.js 22+ and FFmpeg, plus any free chat AI · Time: 45 min
+
 Tested: not yet run end to end by us. These steps come from the official HyperFrames quickstart, CLI guide and FAQ, read on 10 November 2026.
+
 You need: a Mac, Windows or Linux computer where you can install programs, a terminal, and a free account with any chat AI
+
 Video version: [video script](video-script.md) (video coming later) · Next lesson: [Spot hype and keep learning](../15-spot-hype-keep-learning/README.md)
 
 > **Cost check before you start.** HyperFrames is open source (Apache 2.0). Rendering on your own computer is free and needs no account, according to its FAQ. HeyGen voices, avatars, cloud rendering and the hosted chat connector are paid extras through a HeyGen account. This lesson uses none of them.

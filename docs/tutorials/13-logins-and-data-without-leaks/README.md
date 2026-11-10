@@ -1,7 +1,9 @@
 # Add logins and data without leaking them
 
 Checked: November 2026 · Works on: Lovable Free (5 build credits a day, at most 30 a month) · Time: 60 min
+
 You need: a free Lovable account, a second email address for a test account, and fake data only
+
 Video version: [video script](video-script.md) (video coming later) · Next lesson: [Make a 10-second video with code](../14-video-with-code/README.md)
 
 > **Plan check before you start.** Lovable's Free plan gives 5 build credits a day, capped at 30 a month. Lovable's own examples price "Add authentication" at about 1.2 credits and "Build a landing page with images" at about 2. A build like this one can use a few days of credits. Prices and credits change, so check your plan's help page first.

@@ -1,7 +1,9 @@
 # Keep your private things private
 
 Checked: November 2026 · Works on: any free plan of ChatGPT, Claude or Gemini, on a personal account · Time: 20 min
+
 You need: your assistant open in a web browser and signed in. On a work or school account, your admin controls these settings, so ask them first.
+
 Video version: [video script](video-script.md) (video coming later) · Next lesson: [Make the AI remember you, or forget you](../07-remember-or-forget/README.md)
 
 ## What we'll make

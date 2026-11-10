@@ -1,7 +1,9 @@
 # Hand a multi-step job to an agent
 
 Checked: November 2026 · Works on: ChatGPT Work in the ChatGPT desktop app (all plans, including Free, with limited use) · ChatGPT Work on web and mobile (Plus and up) · Claude Cowork (paid plans) · Time: 25 min
+
 You need: one of the agents above, a job you do every week, and the two sample files below (or your own)
+
 Video version: [video script](video-script.md) (video coming later) · Next lesson: [11. Write your first skill](../11-write-your-first-skill/README.md)
 
 Plan check: this lesson needs an agent, not a plain chat. The free route is the ChatGPT desktop app on Windows or Mac. OpenAI says Work is on every plan there, but Free use is limited. On the web and phone apps, Work needs Plus or higher. Claude Cowork needs a paid Claude plan. Plans change often, so check your plan's help page before you start.

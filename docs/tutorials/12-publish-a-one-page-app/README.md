@@ -1,7 +1,9 @@
 # Build and publish a one-page site without coding
 
 Checked: November 2026 · Works on: any free chat AI (Claude Free, ChatGPT Free or Google AI Studio) plus free Cloudflare and GitHub accounts · Time: 40 min
+
 You need: a free chat AI account, a free Cloudflare account, a free GitHub account, and the real facts for your page (hours, prices, contact details)
+
 Video version: [video script](video-script.md) (video coming later) · Next lesson: [13. Add logins and data without leaking them](../13-logins-and-data-without-leaks/README.md)
 
 Plan check: nothing in this lesson needs a paid plan. You never need a credit card. If a site asks for one, stop and check you are on the free route described here.

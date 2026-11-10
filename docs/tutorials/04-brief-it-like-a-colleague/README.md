@@ -1,7 +1,9 @@
 # Brief it like a new colleague
 
 Checked: November 2026 · Works on: any free plan of ChatGPT, Claude or Gemini · Time: 15 min
+
 You need: a free account with one AI assistant, a notes app, and one real writing job from your week
+
 Video version: [video script](video-script.md) (video coming later) · Next lesson: [Check before you trust](../05-check-before-you-trust/README.md)
 
 ## What we'll make

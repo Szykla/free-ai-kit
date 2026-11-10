@@ -1,8 +1,11 @@
 # Make the AI remember you, or forget you
 
 Checked: November 2026 · Works on: ChatGPT Free (main path), Claude Free, Gemini with a personal Google Account · Time: 20 min
+
 You need: a free ChatGPT account, and five minutes of facts about your work that you are happy to share.
+
 Plan notes: memory is on all three free plans, but the controls differ. In Gemini, memory needs you to be 18 or over, a personal Google Account and Keep Activity on. Gemini's memory summary page is US-only, English-only and needs an active Google AI plan. Claude's search of past chats needs a paid plan.
+
 Video version: [video script](video-script.md) (video coming later) · Next lesson: [Connect your email and calendar safely](../08-connect-email-calendar-safely/README.md)
 
 ## What we'll make

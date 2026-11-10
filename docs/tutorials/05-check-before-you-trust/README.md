@@ -1,8 +1,11 @@
 # Check before you trust
 
 Checked: November 2026 · Works on: any free plan of ChatGPT, Claude or Gemini · Time: 20 min
+
 You need: a free account with one AI assistant, and one answer from your week that you want to rely on
+
 Plan notes: web search is on ChatGPT Free and Claude Free, per their help pages. Claude can run code on every plan. For Gemini, and for ChatGPT code, check your plan's help page.
+
 Video version: [video script](video-script.md) (video coming later) · Next lesson: [Keep your private things private](../06-keep-private-things-private/README.md)
 
 ## What we'll make

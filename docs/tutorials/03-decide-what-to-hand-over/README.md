@@ -1,7 +1,9 @@
 # Decide what to hand to AI
 
 Checked: November 2026 · Works on: ChatGPT Free, Claude Free or Gemini (free personal Google Account) · Time: 25 min
+
 You need: your free account from lesson 1, a pen and paper or a notes app, and last week's calendar or to-do list. No coding, no paid plan.
+
 Video version: [video script](video-script.md) (video coming later) · Next lesson: [Brief it like a new colleague](../04-brief-it-like-a-colleague/README.md)
 
 **Plan note:** the sorting works on paper. You only need the assistant in steps 4 and 5, and a free plan is enough for both.

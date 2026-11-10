@@ -1,7 +1,9 @@
 # What is really happening inside the chat box
 
 Checked: November 2026 · Works on: ChatGPT Free, Claude Free or Gemini (free personal Google Account) · Time: 20 min
+
 You need: the free account from lesson 1, signed in. No coding, no paid plan.
+
 Video version: [video script](video-script.md) (video coming later) · Next lesson: [Decide what to hand to AI](../03-decide-what-to-hand-over/README.md)
 
 **Plan note:** all five experiments work on the free plans above. Web search and memory work differently in each app and plan, and they change often. Where a step depends on them, check your app's help page.

@@ -1,11 +1,14 @@
 # Build a morning brief that runs itself
 
 Checked: November 2026 · Works on: ChatGPT Free (main path), Claude paid plans, Gemini (limited regions) · Time: 20 min, then 2 min each morning
+
 You need: lesson 8 done, so Gmail and Google Calendar are connected to ChatGPT with approvals on.
+
 Plan notes:
 - **ChatGPT Free and Go:** up to 3 active scheduled tasks. On Free, a task runs at most once a day, in a flexible window such as morning, afternoon or night. Exact times and hourly runs need a paid plan. Whether Free includes the Gmail app is unclear (see lesson 8).
 - **Claude:** scheduled tasks are on paid plans only (Pro, Max, Ultra, Team, Enterprise). They run in the cloud, even when your computer is asleep.
 - **Gemini:** the built-in **Daily brief** is free but only in the US, in English, for personal accounts, age 18+. Scheduled *tasks* need Google AI Pro or Ultra and are not available in the EEA, the UK, Switzerland or Nigeria.
+
 Video version: [video script](video-script.md) (video coming later) · Next lesson: [Hand a multi-step job to an agent](../10-hand-a-job-to-an-agent/README.md)
 
 ## What we'll make
@@ -70,7 +73,7 @@ In this tutorial we will make a brief that lands every morning before Maria open
 
 ### Optional upgrade: the kit's chief-of-staff skill
 
-This kit includes a ready-made brief skill: [chief-of-staff](../../skills/chief-of-staff/SKILL.md). It sorts the same four groups, numbers every item and keeps a draft reply ready, but only shows it when you pick the number. It never sends, accepts, deletes or archives on its own. In ChatGPT, paste the skill's text into the task's instructions in place of the prompt above. In tools that load skills, install it as lesson 11 shows.
+This kit includes a ready-made brief skill: [chief-of-staff](https://github.com/Szykla/free-ai-kit/blob/main/skills/chief-of-staff/SKILL.md). It sorts the same four groups, numbers every item and keeps a draft reply ready, but only shows it when you pick the number. It never sends, accepts, deletes or archives on its own. In ChatGPT, paste the skill's text into the task's instructions in place of the prompt above. In tools that load skills, install it as lesson 11 shows.
 
 ### Using Claude or Gemini instead
 

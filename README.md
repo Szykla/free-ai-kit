@@ -12,7 +12,7 @@ No sign-up, no email list, no upsell. Copy it, change it, share it (MIT).
 
 | Folder | What it gives you |
 |---|---|
-| [`docs/tutorials/`](docs/tutorials/README.md) | **15 tutorials**, from your first useful chat to publishing an app and making a video with code. Each has pictures and a word-for-word video script. |
+| [`docs/tutorials/`](docs/tutorials/README.md) | **16 tutorials**, from your first useful chat to publishing an app and making a video with code. Each has pictures and a word-for-word video script. |
 | [`skills/`](skills/) | Ten ready skills (below). |
 | [`docs/where-money-is-well-spent.md`](docs/where-money-is-well-spent.md) | If you do want to pay for AI learning: which offers are worth it, and why. |
 

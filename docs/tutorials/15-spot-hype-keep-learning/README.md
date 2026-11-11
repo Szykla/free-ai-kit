@@ -4,7 +4,7 @@ Checked: November 2026 · Works on: any free chat AI with web search, and a web 
 
 You need: one AI video or post you were about to trust, a notes app, and your calendar
 
-Video version: [video script](video-script.md) (video coming later) · Next lesson: this is the last lesson. Go back to [the start](../01-first-useful-conversation/README.md) when you want a refresher.
+Video version: [video script](video-script.md) (video coming later) · Next lesson: [Make the AI your tutor, not your answer key](../16-make-it-your-tutor/README.md)
 
 > **Cost check.** Everything in this lesson is free. The resource list below marks what is free, what is partly free, and what only looks free. Prices were checked on 10 November 2026.
 
@@ -91,7 +91,7 @@ Start: open the last AI post a friend or colleague sent you. Goal: a scored scor
 
 ## What you made
 
-You can now tell a careful source from a loud one in a few minutes. You also have a small, dated reading habit that keeps you current. That closes this series. Come back to any lesson when a tool changes, and check its date first.
+You can now tell a careful source from a loud one in a few minutes. You also have a small, dated reading habit that keeps you current. Next, turn the AI into a tutor that makes you think: [Make the AI your tutor, not your answer key](../16-make-it-your-tutor/README.md). Come back to any lesson when a tool changes, and check its date first.
 
 ## Best free resources (checked 10 November 2026)
 

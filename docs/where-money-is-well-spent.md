@@ -33,6 +33,24 @@ Almost every Skool group shows 5 stars, so ignore the stars. These are cheap and
 
 Red flags seen a lot: "only 11 spots left" counters, "10x your investment" promises, $1,950/month "scaling" groups, "All sales are final". Join free first: AI Automation Society, RoboNuggets, Chase AI and ZeroOne free tiers.
 
+## Free Skool groups that teach for real
+
+We went through every free AI group we could find on Skool (5,106). Most are empty or exist to sell a paid tier. These teach a lot for free, judged from their public pages:
+
+- **Maker Zero** (Nick Saraev): free Claude Code courses, big and active.
+- **Easy Machine AI**: 24 free courses on Claude and Codex.
+- **AI Masters Community** (Ed Honour): for developers, very active.
+- **AI Agent Builders** (Tech With Tim): building agents, step by step.
+- **The AI Workforce**: a personal AI assistant with safety and cost limits from day one.
+- **Useful AI**: second brain and Claude Cowork, readable without joining.
+- **Automatable Free** (Jono Catliff): 100+ free automation blueprints.
+- **Master AI Coding Agents**: coding with agents while keeping the token bill down.
+- **DOOing AI Foundry** and **Claude Code Pirates**: open models on your own machine, no hype.
+- German: **KI Agenten**, **The Node AI**. Hungarian: **AI Klub**.
+- Creatives: **Consistent Characters**, **3D Artists**.
+
+Most also sell a paid tier. Use the checklist before you upgrade.
+
 ## The 9-point checklist
 
 Score each point 0, 1 or 2.

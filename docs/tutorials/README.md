@@ -1,6 +1,6 @@
 # The tutorials
 
-Fifteen free lessons, from your first useful chat to publishing an app. Each one follows Maria, who runs a small bakery, then asks you to try it on your own life. Every lesson has a word-for-word video script; the videos come later.
+Sixteen free lessons, from your first useful chat to publishing an app. Each one follows Maria, who runs a small bakery, then asks you to try it on your own life. Every lesson has a word-for-word video script; the videos come later.
 
 Checked: November 2026. AI apps change fast. If a button has moved, the lesson names it in words so you can find it.
 
@@ -43,6 +43,7 @@ Checked: November 2026. AI apps change fast. If a button has moved, the lesson n
 | # | Lesson | Works on | Time |
 |---|---|---|---|
 | 15 | [Spot hype and keep learning](15-spot-hype-keep-learning/README.md) | any free chat AI with web search, and a web browser | 30 min, then 30 min a week |
+| 16 | [Make the AI your tutor, not your answer key](16-make-it-your-tutor/README.md) | ChatGPT Free (main path), Claude Free, Gemini, or any free chat AI | 25 min |
 
 ## How these were made
 

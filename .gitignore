@@ -1,0 +1,3 @@
+# The screenshot check's builds, renders and review folder, and its tools (tests/visual/README.md).
+.visual/
+node_modules/

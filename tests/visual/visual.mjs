@@ -120,7 +120,7 @@ async function compare(baseArg) {
 async function writeReview(changed) {
   mkdirSync(review, { recursive: true });
   if (changed.length) {
-    const browser = await chromium.launch(process.env.PW_EXE ? { executablePath: process.env.PW_EXE } : {});
+    const browser = await chromium.launch();
     const page = await browser.newPage();
     const png = (file) => readFileSync(file).toString("base64");
     for (const c of changed) {

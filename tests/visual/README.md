@@ -17,9 +17,11 @@ well spent", each as a whole page on a 1280×800 window and on a 390×844 phone.
     npm ci --prefix tests/visual
     bundle install --gemfile tests/visual/Gemfile
 
-It needs Ruby 3.3, Node 20 or newer, and a Chromium: the one a cloud session
-has installed, `PW_EXE=<path to Chrome or Chromium>`, or
-`npx --prefix tests/visual playwright install chromium`.
+It needs Ruby 3.3, Node 20 or newer, and Playwright's own Chromium: a cloud
+session has it; elsewhere run
+`npx --prefix tests/visual playwright install --only-shell chromium`. Google
+Chrome won't do: it drew some edges of a whole page a pixel off from one run
+to the next.
 
 ## When a page changed
 
@@ -45,8 +47,7 @@ the skills, the README and workflows don't.
 ## In CI
 
 The Screens workflow runs it on every pull request, on GitHub's own runners
-(free for a public repository) with their Google Chrome:
-`node tests/visual/visual.mjs HEAD^1`, the merge's first parent being main. It
+(free for a public repository): `node tests/visual/visual.mjs HEAD^1`, the merge's first parent being main. It
 is red while a changed page has no accept for the PR's own head. Nothing is
 uploaded; run the check where you work to get the review folder.
 

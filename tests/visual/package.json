@@ -1,0 +1,11 @@
+{
+  "name": "free-ai-kit-screens",
+  "private": true,
+  "description": "The screenshot check for the site (README.md here).",
+  "scripts": {
+    "visual": "node visual.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.63.0"
+  }
+}

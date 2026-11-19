@@ -1,0 +1,5 @@
+# The site's builder for the screenshot check: GitHub Pages' own gem set, at the
+# version Pages runs (pages.github.com/versions), so the pages look as they do live.
+source "https://rubygems.org"
+
+gem "github-pages", "232", group: :jekyll_plugins

@@ -27,8 +27,8 @@ jobs:
         with:
           node-version: 22
       - run: npm ci --prefix tests/visual
-      # Playwright's own Chromium, as in a cloud session: the runner's Google Chrome
-      # drew some page edges a pixel off from one run to the next.
+      # Playwright's own Chromium, as in a cloud session (the runner's Google Chrome
+      # drew pages a pixel off more often).
       - run: npx --prefix tests/visual playwright install --only-shell chromium
       - name: Pages against main
         env:

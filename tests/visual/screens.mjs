@@ -37,6 +37,11 @@ async function shoot(page, path, name) {
     await document.fonts.ready;
   });
   expect(failed, `These did not load: ${failed.join(", ")}`).toEqual([]);
+  // A scroll box (a wide code block or table) is sometimes drawn on a layer of its own, its
+  // bottom edge a pixel off; fixed in place, it draws the same way every time.
+  await page.evaluate(() => {
+    for (const el of document.querySelectorAll("*")) if (/auto|scroll/.test(getComputedStyle(el).overflow)) el.style.overflow = "hidden";
+  });
   await expect(page).toHaveScreenshot(`${name}.png`, { fullPage: true });
 }
 

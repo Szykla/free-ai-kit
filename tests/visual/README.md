@@ -6,6 +6,11 @@ page that looks different. Both sides are built with GitHub Pages' own gem set,
 at the version Pages runs (`Gemfile` here), so the pages come out as they do
 live. Nothing is ever accepted on its own.
 
+Chromium doesn't always draw a long page exactly the same way. Wide code blocks
+and tables, which scroll sideways, sometimes landed a pixel lower, so they are
+fixed in place for the pictures. And a page only counts as changed when a
+second, fresh render of both sides shows the change again.
+
 ## What it covers
 
 Home, the money page, the tutorial list, the first tutorial and "Where money is
@@ -19,9 +24,7 @@ well spent", each as a whole page on a 1280×800 window and on a 390×844 phone.
 
 It needs Ruby 3.3, Node 20 or newer, and Playwright's own Chromium: a cloud
 session has it; elsewhere run
-`npx --prefix tests/visual playwright install --only-shell chromium`. Google
-Chrome won't do: it drew some edges of a whole page a pixel off from one run
-to the next.
+`npx --prefix tests/visual playwright install --only-shell chromium`.
 
 ## When a page changed
 

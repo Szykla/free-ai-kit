@@ -72,25 +72,36 @@ async function compare(baseArg) {
       stdio: "inherit",
       env: { ...process.env, VISUAL_OUT: out, VISUAL_DIST: join(out, side) },
     });
-  if (playwright("base", "--update-snapshots=all", "--reporter=dot").status !== 0) throw new Error("main's pages could not be rendered (above).");
-  playwright("head", "--update-snapshots=none");
-
-  const report = JSON.parse(readFileSync(join(out, "results.json"), "utf8"));
-  const changed = [];
-  const broken = [];
-  const walk = (suite) => {
-    for (const s of suite.suites ?? []) walk(s);
-    for (const spec of suite.specs ?? []) {
-      const result = spec.tests[0]?.results.at(-1);
-      if (!result || result.status === "passed") continue;
-      const file = (name) => result.attachments.find((a) => a.name === `${spec.title}-${name}.png`)?.path;
-      const message = result.errors.map((e) => e.message ?? "").join("\n") || result.status;
-      // A page that never held still is the check's problem, not a change.
-      if (file("actual") && !/stable screenshots/i.test(message)) changed.push({ screen: spec.title, before: file("expected"), after: file("actual"), diff: file("diff") });
-      else broken.push(`${spec.title}: ${message.replace(/\u001b\[[0-9;]*m/g, "").split("\n").find((l) => l.trim() && !l.startsWith("Error: expect")) ?? message}`);
-    }
+  // Main's pages first, as the baseline, then this tree's against them; `only` limits both to some pages.
+  const render = (only) => {
+    const grep = only ? ["-g", `(^| )(${only.join("|")})$`] : [];
+    if (playwright("base", "--update-snapshots=all", "--reporter=dot", ...grep).status !== 0) throw new Error("main's pages could not be rendered (above).");
+    playwright("head", "--update-snapshots=none", ...grep);
+    const report = JSON.parse(readFileSync(join(out, "results.json"), "utf8"));
+    const changed = [];
+    const broken = [];
+    const walk = (suite) => {
+      for (const s of suite.suites ?? []) walk(s);
+      for (const spec of suite.specs ?? []) {
+        const result = spec.tests[0]?.results.at(-1);
+        if (!result || result.status === "passed") continue;
+        const file = (name) => result.attachments.find((a) => a.name === `${spec.title}-${name}.png`)?.path;
+        const message = result.errors.map((e) => e.message ?? "").join("\n") || result.status;
+        // A page that never held still is the check's problem, not a change.
+        if (file("actual") && !/stable screenshots/i.test(message)) changed.push({ screen: spec.title, before: file("expected"), after: file("actual"), diff: file("diff") });
+        else broken.push(`${spec.title}: ${message.replace(/\u001b\[[0-9;]*m/g, "").split("\n").find((l) => l.trim() && !l.startsWith("Error: expect")) ?? message}`);
+      }
+    };
+    for (const s of report.suites) walk(s);
+    return { changed, broken };
   };
-  for (const s of report.suites) walk(s);
+  let { changed, broken } = render();
+  // Chromium doesn't always draw a long page exactly the same way (a pixel here and there),
+  // so a page counts as changed only if fresh renders of both sides differ again.
+  if (changed.length && !broken.length) {
+    console.log(`\nRendering ${changed.map((c) => c.screen).join(", ")} again on both sides, to tell a change from a pixel drawn differently.`);
+    ({ changed, broken } = render(changed.map((c) => c.screen)));
+  }
 
   await writeReview(changed);
   const accepted = existsSync(acceptedFile) ? JSON.parse(readFileSync(acceptedFile, "utf8")) : { source: null, screens: {} };

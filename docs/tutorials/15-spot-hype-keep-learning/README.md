@@ -134,6 +134,8 @@ Prices, badges and update dates change. Each line shows what we saw on the date 
 
 **Deepest dive:** Stanford's [CS336: Language Modeling from Scratch](https://cs336.stanford.edu/) (Percy Liang and Tatsu Hashimoto) walks you through building your own language model: tokenizer, Transformer, GPU tuning, training data and alignment. The [lecture recordings](https://www.youtube.com/watch?v=JuoVZkPBiKk&list=PLoROMvodv4rMqXOcazWaTUHhq-yembLCV) and the [assignments](https://github.com/stanford-cs336) are free. It is a hard university course: it expects strong Python, PyTorch and college maths, and the full training runs need a rented GPU, at about $5 to $7 an hour (course page, checked 22 November 2026). You can debug on your own computer first.
 
+More free deep dives on models and agents, with the catch for each: [Go deeper, for free](../../go-deeper.md).
+
 ## What's not really free
 
 | Resource | The catch |

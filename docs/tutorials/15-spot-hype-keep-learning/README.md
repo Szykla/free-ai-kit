@@ -132,6 +132,8 @@ Prices, badges and update dates change. Each line shows what we saw on the date 
 
 **Next steps for builders:** Microsoft's [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners), Kaggle's [5-Day AI Agents course](https://www.kaggle.com/learn-guide/5-day-agents) and the Hugging Face courses are free and good. They need Python, though.
 
+**Deepest dive:** Stanford's [CS336: Language Modeling from Scratch](https://cs336.stanford.edu/) (Percy Liang and Tatsu Hashimoto) walks you through building your own language model: tokenizer, Transformer, GPU tuning, training data and alignment. The [lecture recordings](https://www.youtube.com/watch?v=JuoVZkPBiKk&list=PLoROMvodv4rMqXOcazWaTUHhq-yembLCV) and the [assignments](https://github.com/stanford-cs336) are free. It is a hard university course: it expects strong Python, PyTorch and college maths, and the full training runs need a rented GPU, at about $5 to $7 an hour (course page, checked 22 November 2026). You can debug on your own computer first.
+
 ## What's not really free
 
 | Resource | The catch |
@@ -141,6 +143,7 @@ Prices, badges and update dates change. Each line shows what we saw on the date 
 | AI for Everyone certificate | The videos are free on DeepLearning.AI. The certificate costs $49 on Coursera |
 | [Learn Prompting](https://learnprompting.org/courses/chatgpt-for-everyone) courses | The docs are free. Courses sit in the paid "Plus" catalogue, after a 3-day trial |
 | [promptingguide.ai](https://www.promptingguide.ai) | Pages are free, with a banner selling a paid course |
+| [Stanford CS336](https://cs336.stanford.edu/) | Lectures and assignments are free. Training runs need a rented GPU, about $5 to $7 an hour; Modal gives $30 of free compute a month |
 | Claude Code courses | The courses are free. The tool itself needs a paid Claude plan |
 | OpenAI Academy's Agents and Workflows course | The course is free, but it needs "access to agent capabilities", which may mean a paid plan |
 | Peter Yang's Behind the Craft, Hamel Husain's course | Many Behind the Craft guides are paywalled. Hamel's writing is free; his cohort course is paid |

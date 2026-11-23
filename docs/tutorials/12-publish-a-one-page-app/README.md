@@ -1,3 +1,7 @@
+---
+permalink: /tutorials/12-publish-a-one-page-app/
+description: "We make Maria's bakery website. It is one page with today's opening hours, the bread menu, cake orders and directions. It will be live on the internet at an..."
+---
 # Build and publish a one-page site without coding
 
 Checked: November 2026 · Works on: any free chat AI (Claude Free, ChatGPT Free or Google AI Studio) plus free Cloudflare and GitHub accounts · Time: 40 min

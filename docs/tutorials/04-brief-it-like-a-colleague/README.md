@@ -1,3 +1,7 @@
+---
+permalink: /tutorials/04-brief-it-like-a-colleague/
+description: "We make a reusable four-part brief. Maria, who runs a small neighbourhood bakery, will use it to get her weekly Instagram post drafted in one go. You will..."
+---
 # Brief it like a new colleague
 
 Checked: November 2026 · Works on: any free plan of ChatGPT, Claude or Gemini · Time: 15 min

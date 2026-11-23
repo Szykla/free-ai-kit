@@ -1,3 +1,7 @@
+---
+permalink: /tutorials/02-inside-the-chat-box/
+description: "We make a four-line card that explains, in your own words, how your assistant works. Each line comes from a small experiment you run yourself, so you will..."
+---
 # What is really happening inside the chat box
 
 Checked: November 2026 · Works on: ChatGPT Free, Claude Free or Gemini (free personal Google Account) · Time: 20 min

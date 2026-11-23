@@ -1,3 +1,7 @@
+---
+title: "Video script: Connect your email and calendar safely"
+description: "Word-for-word video script for the free tutorial: Connect your email and calendar safely"
+---
 Title: Connect your email and calendar safely
 
 Target length: about 5 min · Written version: [README.md](README.md) · App/version checked: November 2026

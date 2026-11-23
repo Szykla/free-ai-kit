@@ -1,3 +1,7 @@
+---
+permalink: /tutorials/05-check-before-you-trust/
+description: "We make a checked answer. Maria will ask about her Monday flour order and a labelling rule. Every risky claim in the reply will end up marked Checked, Wrong..."
+---
 # Check before you trust
 
 Checked: November 2026 · Works on: any free plan of ChatGPT, Claude or Gemini · Time: 20 min

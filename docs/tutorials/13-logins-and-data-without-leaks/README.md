@@ -1,3 +1,7 @@
+---
+permalink: /tutorials/13-logins-and-data-without-leaks/
+description: "We make a small pre-order app for Maria's bakery. Customers sign in, order Saturday loaves, and see only their own orders. Then we will prove that nobody..."
+---
 # Add logins and data without leaking them
 
 Checked: November 2026 · Works on: Lovable Free (5 build credits a day, at most 30 a month) · Time: 60 min

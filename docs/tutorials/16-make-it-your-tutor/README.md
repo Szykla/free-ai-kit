@@ -1,3 +1,7 @@
+---
+permalink: /tutorials/16-make-it-your-tutor/
+description: "We make a short learning session where the AI asks the questions and you do the explaining. Maria wants to understand her bakery's food cost: what share of..."
+---
 # Make the AI your tutor, not your answer key
 
 Checked: November 2026 · Works on: ChatGPT Free (main path), Claude Free, Gemini with a personal Google Account, or any free chat AI with the prompt in step 2 · Time: 25 min

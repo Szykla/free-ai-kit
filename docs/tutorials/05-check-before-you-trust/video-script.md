@@ -1,3 +1,7 @@
+---
+title: "Video script: Check before you trust"
+description: "Word-for-word video script for the free tutorial: Check before you trust"
+---
 Title: Check before you trust
 
 Target length: 4 min 30 s · Written version: [README.md](README.md) · App/version checked: November 2026

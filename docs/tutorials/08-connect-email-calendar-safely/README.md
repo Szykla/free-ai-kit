@@ -1,3 +1,7 @@
+---
+permalink: /tutorials/08-connect-email-calendar-safely/
+description: "In this tutorial we will connect Maria's Gmail and Google Calendar to her assistant, so it can read but never act without asking. We will finish with a..."
+---
 # Connect your email and calendar safely
 
 Checked: November 2026 · Works on: ChatGPT (main path), Claude, Gemini · Time: 25 min

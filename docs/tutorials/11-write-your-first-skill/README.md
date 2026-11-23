@@ -1,3 +1,7 @@
+---
+permalink: /tutorials/11-write-your-first-skill/
+description: "In this tutorial we will turn Maria's Monday order from tutorial 10 into a skill. It is one folder with one file, SKILL.md. After that, Maria types 'Monday..."
+---
 # Write your first skill
 
 Checked: November 2026 · Works on: Claude (Free and paid, with code execution on), Gemini (18+), Codex · Time: 30 min

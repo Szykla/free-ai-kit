@@ -1,3 +1,7 @@
+---
+permalink: /tutorials/15-spot-hype-keep-learning/
+description: "We make two things. The first is a red-flag scorecard you can use on any AI video or post. The second is a short reading list of three trusted free sources,..."
+---
 # Spot hype and keep learning
 
 Checked: November 2026 · Works on: any free chat AI with web search, and a web browser · Time: 30 min, then 30 min a week

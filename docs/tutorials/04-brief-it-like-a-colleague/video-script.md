@@ -1,3 +1,7 @@
+---
+title: "Video script: Brief it like a new colleague"
+description: "Word-for-word video script for the free tutorial: Brief it like a new colleague"
+---
 Title: Brief it like a new colleague
 
 Target length: 4 min · Written version: [README.md](README.md) · App/version checked: November 2026

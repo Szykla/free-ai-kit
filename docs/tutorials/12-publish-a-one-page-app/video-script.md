@@ -1,3 +1,7 @@
+---
+title: "Video script: Build and publish a one-page site without coding"
+description: "Word-for-word video script for the free tutorial: Build and publish a one-page site without coding"
+---
 Title: Build and publish a one-page site without coding
 
 Target length: 4 min 40 s · Written version: [README.md](README.md) · App/version checked: November 2026

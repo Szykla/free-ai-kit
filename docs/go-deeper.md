@@ -1,6 +1,6 @@
 # Go deeper, for free
 
-For when the 16 tutorials feel easy and you want to know how the models and agents underneath work. Every link here is free to read, watch or run. Most of it needs Python, and some of it needs maths.
+For when the 17 tutorials feel easy and you want to know how the models and agents underneath work. Every link here is free to read, watch or run. Most of it needs Python, and some of it needs maths.
 
 Last checked 22 November 2026. No affiliate links, no sponsors. Where a free resource also sells something, the line says so.
 

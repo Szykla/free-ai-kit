@@ -6,7 +6,7 @@ You need: one thing you want to understand, not just get done. Pick something yo
 
 Plan notes: ChatGPT's study mode is on every plan, including Free. Gemini's Guided Learning needs you to be signed in. Gemini's extra study tools (quizzes, flashcards) are for users 18 and over, not on work or school accounts. Claude's Learning option is moving from the styles menu to a skill, so where you find it depends on your account.
 
-Video version: [video script](video-script.md) (video coming later) · Next lesson: this is the newest lesson. Go back to [the start](../01-first-useful-conversation/README.md) when you want a refresher.
+Video version: [video script](video-script.md) (video coming later) · Next lesson: [Check a skill or MCP before you install it](../17-check-before-you-install/README.md)
 
 ## What we'll make
 
@@ -80,7 +80,7 @@ Start: pick one thing you have tried to learn and dropped, like reading a paysli
 
 ## What you made
 
-You turned an answer machine into a tutor that makes you think. You also have a short prompt you can reuse for any topic. Use it whenever you notice you're copying an answer you don't really understand.
+You turned an answer machine into a tutor that makes you think. You also have a short prompt you can reuse for any topic. Use it whenever you notice you're copying an answer you don't really understand. Next, learn to check a tool before you add it to your AI: [Check a skill or MCP before you install it](../17-check-before-you-install/README.md).
 
 ---
 Sources: [OpenAI: Using study mode in ChatGPT](https://help.openai.com/en/articles/11780217) · [OpenAI: Introducing study mode](https://openai.com/index/chatgpt-study-mode) · [Claude: Styles are moving to skills](https://support.claude.com/en/articles/10181068-styles-are-moving-to-skills) · [Gemini: Use learning tools in Gemini Apps](https://support.google.com/gemini/answer/16448384) · Idea from Scott Farrar on *How I AI* ("flipped" tutors that keep student agency) · Help pages checked: 11 November 2026

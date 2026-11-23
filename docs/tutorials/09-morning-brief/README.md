@@ -1,3 +1,6 @@
+---
+description: "We make a brief that lands every morning before Maria opens the bakery. It reads her mail and calendar, lists what needs her in numbered lines, and never..."
+---
 # Build a morning brief that runs itself
 
 Checked: November 2026 · Works on: ChatGPT Free (main path), Claude paid plans, Gemini (limited regions) · Time: 20 min, then 2 min each morning

@@ -1,3 +1,7 @@
+---
+title: "Video script: Make the AI remember you, or forget you"
+description: "Word-for-word video script for the free tutorial: Make the AI remember you, or forget you"
+---
 Title: Make the AI remember you, or forget you
 
 Target length: about 4 min 40 s · Written version: [README.md](README.md) · App/version checked: November 2026

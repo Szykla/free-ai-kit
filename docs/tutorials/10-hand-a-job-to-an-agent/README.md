@@ -1,3 +1,6 @@
+---
+description: "In this tutorial we will hand Maria's Monday flour and butter order to an agent. The agent reads her stock sheet and price list, works out what to order,..."
+---
 # Hand a multi-step job to an agent
 
 Checked: November 2026 · Works on: ChatGPT Work in the ChatGPT desktop app (all plans, including Free, with limited use) · ChatGPT Work on web and mobile (Plus and up) · Claude Cowork (paid plans) · Time: 25 min

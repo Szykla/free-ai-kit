@@ -1,3 +1,7 @@
+---
+title: "Video script: Your first useful conversation with an AI assistant"
+description: "Word-for-word video script for the free tutorial: Your first useful conversation with an AI assistant"
+---
 Title: Your first useful conversation with an AI assistant
 
 Target length: 4 min (about 390 spoken words; typing on screen and pauses fill the rest) · Written version: [README.md](README.md) · App/version checked: November 2026

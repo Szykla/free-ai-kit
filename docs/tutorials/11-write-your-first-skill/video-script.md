@@ -1,3 +1,7 @@
+---
+title: "Video script: Write your first skill"
+description: "Word-for-word video script for the free tutorial: Write your first skill"
+---
 Title: Write your first skill
 
 Target length: 4 min 30 s · Written version: [README.md](README.md) · App/version checked: November 2026 (Claude web, Customize > Skills)

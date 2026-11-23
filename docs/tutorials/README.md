@@ -1,3 +1,6 @@
+---
+description: "Free AI tutorials for everyday people, from your first useful chat to publishing an app. Pictures and video scripts included. No paywall."
+---
 # The tutorials
 
 Seventeen free lessons, from your first useful chat to publishing an app. Each one follows Maria, who runs a small bakery, then asks you to try it on your own life. Every lesson has a word-for-word video script; the videos come later.

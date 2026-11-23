@@ -1,10 +1,16 @@
 title: Learn AI for free · Proxxxy
+description: Free, researched AI tutorials for everyday people, with pictures and video scripts. No paywall, no sign-up.
+url: https://szykla.github.io
+baseurl: /free-ai-kit
+lang: en
 markdown: kramdown
 kramdown:
   input: GFM
 plugins:
   - jekyll-relative-links
   - jekyll-readme-index
+  - jekyll-seo-tag
+  - jekyll-sitemap
 relative_links:
   enabled: true
   collections: false

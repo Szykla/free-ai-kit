@@ -1,3 +1,7 @@
+---
+title: "Video script: Hand a multi-step job to an agent"
+description: "Word-for-word video script for the free tutorial: Hand a multi-step job to an agent"
+---
 Title: Hand a multi-step job to an agent
 
 Target length: 4 min 30 s · Written version: [README.md](README.md) · App/version checked: November 2026 (ChatGPT desktop app, Work)

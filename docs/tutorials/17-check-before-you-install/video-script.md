@@ -1,3 +1,7 @@
+---
+title: "Video script: Check a skill or MCP before you install it"
+description: "Word-for-word video script for the free tutorial: Check a skill or MCP before you install it"
+---
 Title: Check a skill or MCP before you install it
 
 Target length: about 4 min · Written version: [README.md](README.md) · App/version checked: November 2026

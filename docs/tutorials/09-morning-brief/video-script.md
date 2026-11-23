@@ -1,3 +1,7 @@
+---
+title: "Video script: Build a morning brief that runs itself"
+description: "Word-for-word video script for the free tutorial: Build a morning brief that runs itself"
+---
 Title: Build a morning brief that runs itself
 
 Target length: about 5 min · Written version: [README.md](README.md) · App/version checked: November 2026

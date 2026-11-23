@@ -1,3 +1,6 @@
+---
+description: "We make an assistant that remembers the right things about Maria's bakery and nothing else. We will check what it already knows, delete one thing it should..."
+---
 # Make the AI remember you, or forget you
 
 Checked: November 2026 · Works on: ChatGPT Free (main path), Claude Free, Gemini with a personal Google Account · Time: 20 min

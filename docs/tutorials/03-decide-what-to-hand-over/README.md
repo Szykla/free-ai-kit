@@ -1,3 +1,6 @@
+---
+description: "We make a one-page sort of your week into three columns: 'AI does it', 'AI helps' and 'I do it'. We will also pick one task to hand over today, with a note..."
+---
 # Decide what to hand to AI
 
 Checked: November 2026 · Works on: ChatGPT Free, Claude Free or Gemini (free personal Google Account) · Time: 25 min

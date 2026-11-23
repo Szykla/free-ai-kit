@@ -1,3 +1,6 @@
+---
+description: "We make a six-point safety check you can run on anything you are about to add to your AI: a skill, a plugin, or an MCP server. Maria found a skill on GitHub..."
+---
 # Check a skill or MCP before you install it
 
 Checked: November 2026 · Works on: any free chat AI that can open web pages (Claude Free, ChatGPT Free or Gemini), and a web browser · Time: 20 min

@@ -1,3 +1,6 @@
+---
+description: "In this tutorial we will set up your assistant for privacy. You will choose your training setting, open a temporary chat, check what it remembers, and write..."
+---
 # Keep your private things private
 
 Checked: November 2026 · Works on: any free plan of ChatGPT, Claude or Gemini, on a personal account · Time: 20 min

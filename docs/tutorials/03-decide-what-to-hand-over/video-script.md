@@ -1,3 +1,7 @@
+---
+title: "Video script: Decide what to hand to AI"
+description: "Word-for-word video script for the free tutorial: Decide what to hand to AI"
+---
 Title: Decide what to hand to AI
 
 Target length: 4 min 30 s (about 460 spoken words; writing on screen and pauses fill the rest) · Written version: [README.md](README.md) · App/version checked: November 2026

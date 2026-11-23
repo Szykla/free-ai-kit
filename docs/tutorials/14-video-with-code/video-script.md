@@ -1,3 +1,7 @@
+---
+title: "Video script: Make a 10-second video with code"
+description: "Word-for-word video script for the free tutorial: Make a 10-second video with code"
+---
 Title: Make a 10-second video with code
 
 Target length: 4 min 45 s · Written version: [README.md](README.md) · App/version checked: November 2026 (from the HyperFrames docs; not yet run end to end by us, so do a full dry run before recording)

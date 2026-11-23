@@ -1,3 +1,7 @@
+---
+title: "Video script: What is really happening inside the chat box"
+description: "Word-for-word video script for the free tutorial: What is really happening inside the chat box"
+---
 Title: What is really happening inside the chat box
 
 Target length: 4 min 30 s (about 450 spoken words; typing on screen and pauses fill the rest) · Written version: [README.md](README.md) · App/version checked: November 2026

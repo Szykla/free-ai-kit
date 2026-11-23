@@ -1,0 +1,9 @@
+{
+  "source": "b5d5322abd5d3f27",
+  "screens": {
+    "home": "Heading '17 lessons from...' and button 'Read all 17 tutorials' are the only changes; the rest of the diff is faded unchanged content.",
+    "home-phone": "Only the heading now reads '17 lessons from...' and the button 'Read all 17 tutorials'; layout intact, nothing cut off.",
+    "tutorials": "Intro says 'Seventeen free lessons' and a new row 17 ends the Keep learning table; the rest only shifts down, nothing broken.",
+    "tutorials-phone": "Intro says 'Seventeen free lessons' and row 17 is added to Keep learning; the rest only shifts down, table renders cleanly."
+  }
+}

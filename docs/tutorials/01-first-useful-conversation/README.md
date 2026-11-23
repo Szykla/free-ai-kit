@@ -1,4 +1,5 @@
 ---
+permalink: /tutorials/01-first-useful-conversation/
 description: "We make one finished piece of writing you will actually use this week. We get there with one plain question and two follow-ups."
 ---
 # Your first useful conversation with an AI assistant

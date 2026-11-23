@@ -1,4 +1,5 @@
 ---
+permalink: /tutorials/13-logins-and-data-without-leaks/
 description: "We make a small pre-order app for Maria's bakery. Customers sign in, order Saturday loaves, and see only their own orders. Then we will prove that nobody..."
 ---
 # Add logins and data without leaking them

@@ -1,4 +1,5 @@
 ---
+permalink: /tutorials/17-check-before-you-install/
 description: "We make a six-point safety check you can run on anything you are about to add to your AI: a skill, a plugin, or an MCP server. Maria found a skill on GitHub..."
 ---
 # Check a skill or MCP before you install it

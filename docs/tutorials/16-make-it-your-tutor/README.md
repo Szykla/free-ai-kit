@@ -1,4 +1,5 @@
 ---
+permalink: /tutorials/16-make-it-your-tutor/
 description: "We make a short learning session where the AI asks the questions and you do the explaining. Maria wants to understand her bakery's food cost: what share of..."
 ---
 # Make the AI your tutor, not your answer key

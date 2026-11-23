@@ -1,4 +1,5 @@
 ---
+permalink: /tutorials/14-video-with-code/
 description: "We make a 10-second vertical video for Maria's bakery Instagram. It says 'Saturday sourdough is back' and 'Pre-order by Friday'. An AI writes the video as a..."
 ---
 # Make a 10-second video with code

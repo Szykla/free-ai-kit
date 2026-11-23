@@ -1,4 +1,5 @@
 ---
+permalink: /tutorials/
 description: "Free AI tutorials for everyday people, from your first useful chat to publishing an app. Pictures and video scripts included. No paywall."
 ---
 # The tutorials

@@ -1,4 +1,5 @@
 ---
+permalink: /tutorials/12-publish-a-one-page-app/
 description: "We make Maria's bakery website. It is one page with today's opening hours, the bread menu, cake orders and directions. It will be live on the internet at an..."
 ---
 # Build and publish a one-page site without coding

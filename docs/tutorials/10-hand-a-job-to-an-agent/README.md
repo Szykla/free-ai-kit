@@ -1,4 +1,5 @@
 ---
+permalink: /tutorials/10-hand-a-job-to-an-agent/
 description: "In this tutorial we will hand Maria's Monday flour and butter order to an agent. The agent reads her stock sheet and price list, works out what to order,..."
 ---
 # Hand a multi-step job to an agent

@@ -1,4 +1,5 @@
 ---
+permalink: /tutorials/06-keep-private-things-private/
 description: "In this tutorial we will set up your assistant for privacy. You will choose your training setting, open a temporary chat, check what it remembers, and write..."
 ---
 # Keep your private things private

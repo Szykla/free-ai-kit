@@ -1,4 +1,5 @@
 ---
+permalink: /tutorials/07-remember-or-forget/
 description: "We make an assistant that remembers the right things about Maria's bakery and nothing else. We will check what it already knows, delete one thing it should..."
 ---
 # Make the AI remember you, or forget you
